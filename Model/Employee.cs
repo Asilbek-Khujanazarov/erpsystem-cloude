@@ -1,4 +1,5 @@
-public class Employee
+namespace HRsystem.Models{
+    public class Employee
 {
     public int EmployeeId { get; set; }          // Primary Key (PK)
     public required string FirstName { get; set; }
@@ -8,4 +9,6 @@ public class Employee
     public int DepartmentId { get; set; }        // Foreign Key (FK) - Department jadvaliga
     public required string Position { get; set; }
     public decimal Salary { get; set; }
+    public Department Department {get; set;}
+}
 }

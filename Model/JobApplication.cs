@@ -1,3 +1,4 @@
+namespace HRsystem.Models{
 public class JobApplication
 {
     public int ApplicationId { get; set; }       // PK
@@ -5,4 +6,5 @@ public class JobApplication
     public required string PositionAppliedFor { get; set; }
     public DateTime ApplicationDate { get; set; }
     public required string Status { get; set; }
-}
+    public Employee Employee {get; set;}
+}}

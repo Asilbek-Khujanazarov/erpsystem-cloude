@@ -1,3 +1,4 @@
+namespace HRsystem.Models{
 public class User
 {
     public int UserId { get; set; }              // Primary Key (PK)
@@ -5,4 +6,6 @@ public class User
     public required string PasswordHash { get; set; } // Parol xavfsiz saqlanadi
     public int EmployeeId { get; set; }          // Foreign Key (FK) - Employee jadvaliga bog‘lanadi
     public required string Role { get; set; }    // "Admin" yoki "Employee"
+    public Employee Employee { get; set; } 
+}
 }

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9NET0zTivrY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asilb\\OneDrive\\Desktop\\HR System\\HRsystem\\HRsystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asilb\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\asilb\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

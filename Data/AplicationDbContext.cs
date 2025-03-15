@@ -1,6 +1,6 @@
-
 using HRsystem.Models;
 using Microsoft.EntityFrameworkCore;
+
 namespace HRsystem.Data
 {
     public class ApplicationDbContext : DbContext
@@ -53,7 +53,7 @@ namespace HRsystem.Data
 
             // 5. EmployeeTraining bilan Employee va TrainingCourse o‘rtasidagi ko‘p-ko‘p munosabat
             modelBuilder.Entity<EmployeeTraining>()
-                .HasKey(et => new { et.EmployeeId, et.CourseId }); // Kompozit Primary Key
+                .HasKey(et => new { et.EmployeeId, et.CourseId });
 
             modelBuilder.Entity<EmployeeTraining>()
                 .HasOne(et => et.Employee)

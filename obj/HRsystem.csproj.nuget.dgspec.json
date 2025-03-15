@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asilb\\OneDrive\\Desktop\\HR System\\HRsystem\\HRsystem.csproj": {}
+    "C:\\Users\\Unreal\\Documents\\Programming\\HRsystem\\HRsystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asilb\\OneDrive\\Desktop\\HR System\\HRsystem\\HRsystem.csproj": {
+    "C:\\Users\\Unreal\\Documents\\Programming\\HRsystem\\HRsystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asilb\\OneDrive\\Desktop\\HR System\\HRsystem\\HRsystem.csproj",
+        "projectUniqueName": "C:\\Users\\Unreal\\Documents\\Programming\\HRsystem\\HRsystem.csproj",
         "projectName": "HRsystem",
-        "projectPath": "C:\\Users\\asilb\\OneDrive\\Desktop\\HR System\\HRsystem\\HRsystem.csproj",
-        "packagesPath": "C:\\Users\\asilb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asilb\\OneDrive\\Desktop\\HR System\\HRsystem\\obj\\",
+        "projectPath": "C:\\Users\\Unreal\\Documents\\Programming\\HRsystem\\HRsystem.csproj",
+        "packagesPath": "C:\\Users\\Unreal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Unreal\\Documents\\Programming\\HRsystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\asilb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Unreal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,12 +45,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0-preview.1.24081.2, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.1, )"
@@ -72,6 +76,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0-preview.1.24081.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -93,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

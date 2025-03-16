@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using HRsystem.Data;
-using Microsoft.OpenApi.Models; // Swagger uchun qo‘shildi
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,7 +22,6 @@ builder.Services.AddSwaggerGen(c =>
         Description = "HRsystem loyihasi uchun API hujjatlari"
     });
 
-    // JWT autentifikatsiyasini Swagger’da qo‘llab-quvvatlash uchun
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
@@ -50,7 +49,7 @@ builder.Services.AddSwaggerGen(c =>
 
 // Autentifikatsiya va avtorizatsiya
 builder.Services.AddAuthorization();
-builder.Services.AddAuthentication("Bearer")
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme) // "Bearer" scheme
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
@@ -59,9 +58,9 @@ builder.Services.AddAuthentication("Bearer")
             ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            ValidIssuer = "your_issuer",
-            ValidAudience = "your_audience",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("your_secret_key"))
+            ValidIssuer = builder.Configuration["Jwt:Issuer"], // "HRSystem"
+            ValidAudience = builder.Configuration["Jwt:Audience"], // "HRSystemUsers"
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)) // "Bu_Secret_Key_32_Characters_Long!"
         };
     });
 
@@ -74,7 +73,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "HRsystem API v1");
-        c.RoutePrefix = string.Empty; // Swagger’ni asosiy URL’da ochish uchun (localhost:port/)
+        c.RoutePrefix = string.Empty;
     });
 }
 
@@ -83,25 +82,4 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
-var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
-
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

@@ -1,11 +1,10 @@
-
+using System.Security.Claims;
+using System.Threading.Tasks;
 using HRsystem.Data;
 using HRsystem.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
-using System.Threading.Tasks;
 
 namespace HRsystem.Controllers
 {
@@ -38,7 +37,7 @@ namespace HRsystem.Controllers
                 EmployeeId = employeeId,
                 PositionAppliedFor = dto.PositionAppliedFor,
                 ApplicationDate = DateTime.UtcNow, // Hozirgi vaqt
-                Status = "Pending" // Standart holat
+                Status = "Pending", // Standart holat
             };
 
             _context.JobApplications.Add(jobApplication);
@@ -58,15 +57,15 @@ namespace HRsystem.Controllers
         public async Task<IActionResult> GetMyApplications()
         {
             var employeeId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value!);
-            var applications = await _context.JobApplications
-                .Where(ja => ja.EmployeeId == employeeId)
+            var applications = await _context
+                .JobApplications.Where(ja => ja.EmployeeId == employeeId)
                 .Select(ja => new JobApplicationDto
                 {
                     ApplicationId = ja.ApplicationId,
                     EmployeeId = ja.EmployeeId,
                     PositionAppliedFor = ja.PositionAppliedFor,
                     ApplicationDate = ja.ApplicationDate,
-                    Status = ja.Status
+                    Status = ja.Status,
                 })
                 .ToListAsync();
 
@@ -78,8 +77,8 @@ namespace HRsystem.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllJobApplications()
         {
-            var applications = await _context.JobApplications
-                .Include(ja => ja.Employee)
+            var applications = await _context
+                .JobApplications.Include(ja => ja.Employee)
                 .Select(ja => new JobApplicationDto
                 {
                     ApplicationId = ja.ApplicationId,
@@ -87,7 +86,7 @@ namespace HRsystem.Controllers
                     PositionAppliedFor = ja.PositionAppliedFor,
                     ApplicationDate = ja.ApplicationDate,
                     Status = ja.Status,
-                    EmployeeName = $"{ja.Employee.FirstName} {ja.Employee.LastName}"
+                    EmployeeName = $"{ja.Employee.FirstName} {ja.Employee.LastName}",
                 })
                 .ToListAsync();
 
@@ -97,7 +96,10 @@ namespace HRsystem.Controllers
         // PUT: api/jobapplication/{id} (Ariza holatini yangilash, faqat Admin)
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateJobApplication(int id, [FromBody] JobApplicationUpdateDto dto)
+        public async Task<IActionResult> UpdateJobApplication(
+            int id,
+            [FromBody] JobApplicationUpdateDto dto
+        )
         {
             var application = await _context.JobApplications.FindAsync(id);
             if (application == null)

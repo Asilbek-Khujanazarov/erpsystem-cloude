@@ -46,10 +46,11 @@ namespace HRsystem.Data
 
             // 4. JobApplication bilan Employee o‘rtasidagi 1:ko‘p munosabat
             modelBuilder.Entity<JobApplication>().HasKey(j => j.ApplicationId); // Primary Key
-               modelBuilder.Entity<JobApplication>()
-                .Property(ja => ja.PositionAppliedFor).IsRequired();
-            modelBuilder.Entity<JobApplication>()
-                .Property(ja => ja.Status).IsRequired();
+            modelBuilder
+                .Entity<JobApplication>()
+                .Property(ja => ja.PositionAppliedFor)
+                .IsRequired();
+            modelBuilder.Entity<JobApplication>().Property(ja => ja.Status).IsRequired();
 
             // 6. Attendance bilan Employee o‘rtasidagi 1:ko‘p munosabat
             modelBuilder

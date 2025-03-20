@@ -305,3 +305,4 @@ C:\Users\asilb\OneDrive\Desktop\HRsystem\obj\Debug\net9.0\ref\HRsystem.dll
 C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\BCrypt.Net-Next.dll
 C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\HRsystem.staticwebassets.runtime.json

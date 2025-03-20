@@ -1,12 +1,12 @@
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 using HRsystem.Data;
 using HRsystem.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
 
 namespace HRsystem.Controllers
 {
@@ -16,11 +16,17 @@ namespace HRsystem.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IConfiguration _configuration;
+        private readonly IWebHostEnvironment _environment;
 
-        public EmployeeController(ApplicationDbContext context, IConfiguration configuration)
+        public EmployeeController(
+            ApplicationDbContext context,
+            IConfiguration configuration,
+            IWebHostEnvironment environment
+        )
         {
             _context = context;
             _configuration = configuration;
+            _environment = environment;
         }
 
         // POST: api/employee/register (Ro‘yxatdan o‘tish)
@@ -45,27 +51,41 @@ namespace HRsystem.Controllers
                 HireDate = dto.HireDate,
                 DepartmentId = dto.DepartmentId,
                 Position = dto.Position,
-                Salary = dto.Salary,
             };
 
             _context.Employees.Add(employee);
             await _context.SaveChangesAsync();
 
-            return Ok(new { Message = "Xodim muvaffaqiyatli ro‘yxatdan o‘tdi.", EmployeeId = employee.EmployeeId });
+            return Ok(
+                new
+                {
+                    Message = "Xodim muvaffaqiyatli ro‘yxatdan o‘tdi.",
+                    EmployeeId = employee.EmployeeId,
+                }
+            );
         }
 
         // POST: api/employee/login (Kirish)
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] EmployeeLoginDto dto)
         {
-            var employee = await _context.Employees
-                .FirstOrDefaultAsync(e => e.UserName == dto.UserName);
+            var employee = await _context.Employees.FirstOrDefaultAsync(e =>
+                e.UserName == dto.UserName
+            );
 
             if (employee == null || !BCrypt.Net.BCrypt.Verify(dto.Password, employee.PasswordHash))
                 return Unauthorized(new { Message = "Noto‘g‘ri username yoki parol." });
 
             var token = GenerateJwtToken(employee);
-            return Ok(new { EmployeeId = employee.EmployeeId, Username = employee.UserName, Role = employee.Role, Token = token });
+            return Ok(
+                new
+                {
+                    EmployeeId = employee.EmployeeId,
+                    Username = employee.UserName,
+                    Role = employee.Role,
+                    Token = token,
+                }
+            );
         }
 
         // GET: api/employee/my-info (O‘z ma'lumotlarini ko‘rish)
@@ -74,8 +94,8 @@ namespace HRsystem.Controllers
         public async Task<IActionResult> GetMyInfo()
         {
             var employeeId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value!);
-            var employee = await _context.Employees
-                .Include(e => e.Department)
+            var employee = await _context
+                .Employees.Include(e => e.Department)
                 .Where(e => e.EmployeeId == employeeId)
                 .Select(e => new EmployeeDto
                 {
@@ -88,8 +108,7 @@ namespace HRsystem.Controllers
                     DepartmentId = e.DepartmentId,
                     DepartmentName = e.Department != null ? e.Department.DepartmentName : null,
                     Position = e.Position,
-                    Salary = e.Salary,
-                    Role = e.Role
+                    Role = e.Role,
                 })
                 .FirstOrDefaultAsync();
 
@@ -104,9 +123,7 @@ namespace HRsystem.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllEmployees([FromQuery] string? role = null)
         {
-            var query = _context.Employees
-                .Include(e => e.Department)
-                .AsQueryable();
+            var query = _context.Employees.Include(e => e.Department).AsQueryable();
 
             if (!string.IsNullOrEmpty(role))
                 query = query.Where(e => e.Role == role);
@@ -123,12 +140,86 @@ namespace HRsystem.Controllers
                     DepartmentId = e.DepartmentId,
                     DepartmentName = e.Department != null ? e.Department.DepartmentName : null,
                     Position = e.Position,
-                    Salary = e.Salary,
-                    Role = e.Role
+                    Role = e.Role,
                 })
                 .ToListAsync();
 
             return Ok(employees);
+        }
+
+        [HttpPost("upload-profile-image")]
+        public async Task<IActionResult> UploadProfileImage(IFormFile file)
+        {
+            // Joriy foydalanuvchi ID sini olish
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userIdClaim))
+                return Unauthorized(new { Message = "Foydalanuvchi ID si topilmadi." });
+
+            var employeeId = int.Parse(userIdClaim);
+
+            var employee = await _context.Employees.FindAsync(employeeId);
+            if (employee == null)
+            {
+                return NotFound(new { message = "Employee not found" });
+            }
+
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest(new { message = "No file uploaded" });
+            }
+
+            // 🔹 2. Faqat rasm formatlarini qabul qilish
+            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
+            var fileExtension = Path.GetExtension(file.FileName).ToLower();
+
+            if (!allowedExtensions.Contains(fileExtension))
+            {
+                return BadRequest(
+                    new { message = "Invalid file type. Allowed: .jpg, .jpeg, .png" }
+                );
+            }
+
+            // 🔹 3. Fayl nomini generatsiya qilish
+            string fileName = $"{Guid.NewGuid()}{fileExtension}";
+            string filePath = Path.Combine(_environment.WebRootPath, "images", fileName);
+
+            // 🔹 4. Faylni wwwroot/images ga saqlash
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+            employee.ProfileImagePath = $"/images/{fileName}";
+            await _context.SaveChangesAsync();
+
+            return Ok(
+                new
+                {
+                    message = "Profile image uploaded successfully",
+                    imagePath = employee.ProfileImagePath,
+                }
+            );
+        }
+
+        [HttpGet("get-profile-image")]
+        public async Task<IActionResult> GetProfileImage()
+        {
+            // Joriy foydalanuvchi ID sini olish
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userIdClaim))
+                return Unauthorized(new { Message = "Foydalanuvchi ID si topilmadi." });
+
+            var employeeId = int.Parse(userIdClaim);
+
+            var employee = await _context.Employees.FindAsync(employeeId);
+            if (employee == null)
+            {
+                return NotFound(new { message = "Employee not found" });
+            }
+
+            // 🔹 2. Profil rasm bor yoki yo‘qligini tekshirish
+            string imagePath = employee.ProfileImagePath ?? "/images/default.png";
+
+            return Ok(new { imagePath });
         }
 
         // JWT token generatsiyasi
@@ -138,7 +229,7 @@ namespace HRsystem.Controllers
             {
                 new Claim(ClaimTypes.NameIdentifier, employee.EmployeeId.ToString()),
                 new Claim(ClaimTypes.Name, employee.UserName),
-                new Claim(ClaimTypes.Role, employee.Role)
+                new Claim(ClaimTypes.Role, employee.Role),
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
@@ -168,7 +259,6 @@ namespace HRsystem.Controllers
         public DateTime HireDate { get; set; }
         public int DepartmentId { get; set; }
         public required string Position { get; set; }
-        public decimal Salary { get; set; }
     }
 
     public class EmployeeLoginDto
@@ -188,7 +278,7 @@ namespace HRsystem.Controllers
         public int DepartmentId { get; set; }
         public string? DepartmentName { get; set; }
         public required string Position { get; set; }
-        public decimal Salary { get; set; }
+        public string? ProfileImagePath { get; set; }
         public required string Role { get; set; }
     }
 }

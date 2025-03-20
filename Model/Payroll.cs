@@ -1,11 +1,11 @@
-
-namespace HRsystem.Models{
-public class Payroll
+namespace HRsystem.Models
 {
-    public int PayrollId { get; set; }           // PK
-    public int EmployeeId { get; set; }          // FK - Employee
-    public DateTime PayDate { get; set; }
-    public decimal Amount { get; set; }
-    public Employee Employee {get; set;}
-}
+    public class Payroll
+    {
+        public int PayrollId { get; set; }
+        public int EmployeeId { get; set; }
+        public DateTime PayDate { get; set; }
+        public decimal Amount { get; set; }
+        public Employee Employee { get; set; }
+    }
 }

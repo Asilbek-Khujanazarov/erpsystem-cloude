@@ -99,12 +99,12 @@ namespace HRsystem.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ProfileImagePath")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Role")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Salary")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("UserName")
                         .IsRequired()
@@ -173,6 +173,34 @@ namespace HRsystem.Migrations
                     b.ToTable("Payrolls");
                 });
 
+            modelBuilder.Entity("HRsystem.Models.WorkSchedule", b =>
+                {
+                    b.Property<int>("WorkScheduleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("WorkScheduleId"));
+
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("HourlyRate")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<TimeSpan>("WorkEndTime")
+                        .HasColumnType("time");
+
+                    b.Property<TimeSpan>("WorkStartTime")
+                        .HasColumnType("time");
+
+                    b.HasKey("WorkScheduleId");
+
+                    b.HasIndex("EmployeeId")
+                        .IsUnique();
+
+                    b.ToTable("WorkSchedules");
+                });
+
             modelBuilder.Entity("HRsystem.Models.Attendance", b =>
                 {
                     b.HasOne("HRsystem.Models.Employee", "Employee")
@@ -215,6 +243,22 @@ namespace HRsystem.Migrations
                         .IsRequired();
 
                     b.Navigation("Employee");
+                });
+
+            modelBuilder.Entity("HRsystem.Models.WorkSchedule", b =>
+                {
+                    b.HasOne("HRsystem.Models.Employee", "Employee")
+                        .WithOne("WorkSchedule")
+                        .HasForeignKey("HRsystem.Models.WorkSchedule", "EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Employee");
+                });
+
+            modelBuilder.Entity("HRsystem.Models.Employee", b =>
+                {
+                    b.Navigation("WorkSchedule");
                 });
 #pragma warning restore 612, 618
         }

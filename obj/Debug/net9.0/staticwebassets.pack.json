@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\0506df64-e0fc-4295-8be2-8483e353b4bc.jpg",
+      "PackagePath": "staticwebassets\\Images\\0506df64-e0fc-4295-8be2-8483e353b4bc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\404c834c-c38b-46c2-923e-91a4620f7549.jpg",
+      "PackagePath": "staticwebassets\\Images\\404c834c-c38b-46c2-923e-91a4620f7549.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\e62adced-1eff-4de0-b766-3dfcf37582a9.jpg",
+      "PackagePath": "staticwebassets\\Images\\e62adced-1eff-4de0-b766-3dfcf37582a9.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.HRsystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.HRsystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.HRsystem.props",
+      "PackagePath": "build\\HRsystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.HRsystem.props",
+      "PackagePath": "buildMultiTargeting\\HRsystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.HRsystem.props",
+      "PackagePath": "buildTransitive\\HRsystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -57,6 +57,7 @@ builder.Services.AddSwaggerGen(c =>
             },
         }
     );
+
 });
 
 // Autentifikatsiya va avtorizatsiya

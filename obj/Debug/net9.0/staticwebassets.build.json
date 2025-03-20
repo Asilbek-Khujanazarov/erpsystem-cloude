@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h/cjnjl/fa76pf9FgwBWWXaxQG3Yw6kLD67Tkc1WMFU=",
+  "Hash": "EaaCZAH/ohQpOachu9pCsXGx5U2QQiQCipwu6M9SgDo=",
   "Source": "HRsystem",
   "BasePath": "_content/HRsystem",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\404c834c-c38b-46c2-923e-91a4620f7549.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\610e514d-a7f7-4bf9-a23d-49993243ea42.png",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "Images/610e514d-a7f7-4bf9-a23d-49993243ea42#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oa1aiez56q",
+      "Integrity": "EN/tNkkepKJqkA2IZhb0eQR3c/loNX2SaJS4BayW224=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\610e514d-a7f7-4bf9-a23d-49993243ea42.png"
     },
     {
       "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\e62adced-1eff-4de0-b766-3dfcf37582a9.jpg",
@@ -242,6 +263,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
+        }
+      ]
+    },
+    {
+      "Route": "Images/610e514d-a7f7-4bf9-a23d-49993243ea42.oa1aiez56q.png",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\610e514d-a7f7-4bf9-a23d-49993243ea42.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EN/tNkkepKJqkA2IZhb0eQR3c/loNX2SaJS4BayW224=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 16:36:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oa1aiez56q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/610e514d-a7f7-4bf9-a23d-49993243ea42.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EN/tNkkepKJqkA2IZhb0eQR3c/loNX2SaJS4BayW224="
+        }
+      ]
+    },
+    {
+      "Route": "Images/610e514d-a7f7-4bf9-a23d-49993243ea42.png",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\610e514d-a7f7-4bf9-a23d-49993243ea42.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EN/tNkkepKJqkA2IZhb0eQR3c/loNX2SaJS4BayW224=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 16:36:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EN/tNkkepKJqkA2IZhb0eQR3c/loNX2SaJS4BayW224="
         }
       ]
     },

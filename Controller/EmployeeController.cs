@@ -147,15 +147,15 @@ namespace HRsystem.Controllers
             return Ok(employees);
         }
 
-        [HttpPost("upload-profile-image")]
+        [HttpPut("upload-profile-image")]
         public async Task<IActionResult> UploadProfileImage(IFormFile file)
         {
-            // Joriy foydalanuvchi ID sini olish
+            // 🔹 1. Token orqali foydalanuvchi ID sini olish
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (string.IsNullOrEmpty(userIdClaim))
                 return Unauthorized(new { Message = "Foydalanuvchi ID si topilmadi." });
 
-            var employeeId = int.Parse(userIdClaim);
+            int employeeId = int.Parse(userIdClaim);
 
             var employee = await _context.Employees.FindAsync(employeeId);
             if (employee == null)
@@ -168,7 +168,7 @@ namespace HRsystem.Controllers
                 return BadRequest(new { message = "No file uploaded" });
             }
 
-            // 🔹 2. Faqat rasm formatlarini qabul qilish
+            // 🔹 2. Rasm formatlarini tekshirish
             var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
             var fileExtension = Path.GetExtension(file.FileName).ToLower();
 
@@ -179,22 +179,37 @@ namespace HRsystem.Controllers
                 );
             }
 
-            // 🔹 3. Fayl nomini generatsiya qilish
+            // 🔹 3. Eski rasmni o‘chirish (agar bo‘lsa)
+            if (!string.IsNullOrEmpty(employee.ProfileImagePath))
+            {
+                string oldFilePath = Path.Combine(
+                    _environment.WebRootPath,
+                    employee.ProfileImagePath.TrimStart('/')
+                );
+
+                if (System.IO.File.Exists(oldFilePath))
+                {
+                    System.IO.File.Delete(oldFilePath);
+                }
+            }
+
+            // 🔹 4. Yangi rasmni yuklash
             string fileName = $"{Guid.NewGuid()}{fileExtension}";
             string filePath = Path.Combine(_environment.WebRootPath, "images", fileName);
 
-            // 🔹 4. Faylni wwwroot/images ga saqlash
             using (var stream = new FileStream(filePath, FileMode.Create))
             {
                 await file.CopyToAsync(stream);
             }
+
+            // 🔹 5. Xodimning profil rasm yo‘lini yangilash
             employee.ProfileImagePath = $"/images/{fileName}";
             await _context.SaveChangesAsync();
 
             return Ok(
                 new
                 {
-                    message = "Profile image uploaded successfully",
+                    message = "Profile image updated successfully",
                     imagePath = employee.ProfileImagePath,
                 }
             );

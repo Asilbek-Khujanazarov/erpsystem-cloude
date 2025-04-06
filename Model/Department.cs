@@ -1,10 +1,10 @@
-namespace HRsystem.Models{
-public class Department
+namespace HRsystem.Models
 {
-    public int DepartmentId { get; set; }        // PK
-    public required string DepartmentName { get; set; }
-  
-}
+    public class Department
+    {
+        public int DepartmentId { get; set; } // PK
+        public required string DepartmentName { get; set; }
+    }
 }
 
 // namespace HRsystem.Models

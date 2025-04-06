@@ -13,6 +13,20 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(
+        "AllowAll",
+        builder =>
+        {
+            builder
+                .AllowAnyOrigin() // Barcha origin’larga ruxsat berish
+                .AllowAnyMethod() // Barcha metodlarga (GET, POST, va hokazo) ruxsat
+                .AllowAnyHeader(); // Barcha header’larga ruxsat
+        }
+    );
+});
+
 // AutoMapper ni qo‘shish
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
@@ -57,7 +71,6 @@ builder.Services.AddSwaggerGen(c =>
             },
         }
     );
-
 });
 
 // Autentifikatsiya va avtorizatsiya
@@ -92,9 +105,11 @@ if (app.Environment.IsDevelopment())
         c.RoutePrefix = string.Empty;
     });
 }
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
+app.UseStaticFiles();
 app.UseAuthorization();
 app.MapControllers();
 

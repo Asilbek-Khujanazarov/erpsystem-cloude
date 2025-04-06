@@ -306,3 +306,5 @@ C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\BCrypt.Net-Next.dll
 C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\HRsystem.staticwebassets.runtime.json
+C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\package-lock.json
+C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\package.json

@@ -1,5 +1,5 @@
-using System.Security.Claims;
 using System.Threading.Tasks;
+using AutoMapper;
 using HRsystem.Data;
 using HRsystem.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -13,118 +13,125 @@ namespace HRsystem.Controllers
     public class JobApplicationController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _environment;
+        private readonly IMapper _mapper;
 
-        public JobApplicationController(ApplicationDbContext context)
+        public JobApplicationController(
+            ApplicationDbContext context,
+            IWebHostEnvironment environment,
+            IMapper mapper
+        )
         {
             _context = context;
+            _environment = environment;
+            _mapper = mapper;
         }
 
         // POST: api/jobapplication (Yangi ariza qo‘shish)
         [HttpPost]
-        [Authorize] // Har qanday autentifikatsiya qilingan foydalanuvchi
-        public async Task<IActionResult> AddJobApplication([FromBody] JobApplicationDto dto)
+        public async Task<IActionResult> AddJobApplication(
+            [FromForm] string firstName,
+            [FromForm] string lastName,
+            [FromForm] string email,
+            [FromForm] string route,
+            [FromForm] List<IFormFile> jobApplications
+        )
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+            if (jobApplications.Count > 5)
+            {
+                return BadRequest("Eng ko‘pi bilan 5 ta fayl yuklash mumkin!");
+            }
+            string uploadPath = Path.Combine(_environment.WebRootPath, "uploads");
+            if (!Directory.Exists(uploadPath))
+            {
+                Directory.CreateDirectory(uploadPath);
+            }
 
-            var employeeId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value!);
-            var employee = await _context.Employees.FindAsync(employeeId);
-            if (employee == null)
-                return NotFound(new { Message = "Xodim topilmadi." });
-
+            // yangi rezume  yaratamiz\\
             var jobApplication = new JobApplication
             {
-                EmployeeId = employeeId,
-                PositionAppliedFor = dto.PositionAppliedFor,
-                ApplicationDate = DateTime.UtcNow, // Hozirgi vaqt
-                Status = "Pending", // Standart holat
+                FirstName = firstName,
+                LastName = lastName,
+                Email = email,
+                Route = route,
             };
 
+            foreach (var file in jobApplications)
+            {
+                string fileName = $"{Guid.NewGuid()}_{file.FileName}";
+                string filePath = Path.Combine(uploadPath, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+
+                var jobApplicationFile = new JobApplicationFile
+                {
+                    FileName = fileName,
+                    FilePath = $"/uploads/{fileName}",
+                };
+
+                jobApplication.Files.Add(jobApplicationFile);
+            }
             _context.JobApplications.Add(jobApplication);
             await _context.SaveChangesAsync();
 
-            dto.ApplicationId = jobApplication.ApplicationId;
-            dto.EmployeeId = jobApplication.EmployeeId;
-            dto.ApplicationDate = jobApplication.ApplicationDate;
-            dto.Status = jobApplication.Status;
-
-            return CreatedAtAction(nameof(GetMyApplications), new { }, dto);
+            var jobApplicationDto = _mapper.Map<JobApplicationDto>(jobApplication);
+            return Ok(new { Massage = "Ariza saqlandi", JobApplication = jobApplicationDto });
         }
 
-        // GET: api/jobapplication/my-applications (Xodimning o‘z arizalarini ko‘rish)
-        [HttpGet("my-applications")]
-        [Authorize]
-        public async Task<IActionResult> GetMyApplications()
+        [HttpGet("[Action]")]
+        // [Authorize(Roles = "Admin")]
+        public IActionResult GetApplications()
         {
-            var employeeId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value!);
-            var applications = await _context
-                .JobApplications.Where(ja => ja.EmployeeId == employeeId)
-                .Select(ja => new JobApplicationDto
-                {
-                    ApplicationId = ja.ApplicationId,
-                    EmployeeId = ja.EmployeeId,
-                    PositionAppliedFor = ja.PositionAppliedFor,
-                    ApplicationDate = ja.ApplicationDate,
-                    Status = ja.Status,
-                })
-                .ToListAsync();
-
-            return Ok(applications);
+            var jobApplications = _context.JobApplications.Include(r => r.Files).ToList();
+            var jobApplicationDto = _mapper.Map<List<JobApplicationDto>>(jobApplications);
+            return Ok(jobApplicationDto);
         }
 
-        // GET: api/jobapplication (Barcha arizalarni ko‘rish, faqat Admin)
-        [HttpGet]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> GetAllJobApplications()
+        [HttpPut("[Action]")]
+        // [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> ChangeStatus(int id, string status)
         {
-            var applications = await _context
-                .JobApplications.Include(ja => ja.Employee)
-                .Select(ja => new JobApplicationDto
-                {
-                    ApplicationId = ja.ApplicationId,
-                    EmployeeId = ja.EmployeeId,
-                    PositionAppliedFor = ja.PositionAppliedFor,
-                    ApplicationDate = ja.ApplicationDate,
-                    Status = ja.Status,
-                    EmployeeName = $"{ja.Employee.FirstName} {ja.Employee.LastName}",
-                })
-                .ToListAsync();
-
-            return Ok(applications);
-        }
-
-        // PUT: api/jobapplication/{id} (Ariza holatini yangilash, faqat Admin)
-        [HttpPut("{id}")]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateJobApplication(
-            int id,
-            [FromBody] JobApplicationUpdateDto dto
-        )
-        {
-            var application = await _context.JobApplications.FindAsync(id);
-            if (application == null)
-                return NotFound(new { Message = "Ariza topilmadi." });
-
-            application.Status = dto.Status;
+            var jobApplication = await _context.JobApplications.FindAsync(id);
+            jobApplication.Status = status;
             await _context.SaveChangesAsync();
-
             return NoContent();
         }
-    }
 
-    // DTO lar
-    public class JobApplicationDto
-    {
-        public int ApplicationId { get; set; }
-        public int EmployeeId { get; set; }
-        public required string PositionAppliedFor { get; set; }
-        public DateTime ApplicationDate { get; set; }
-        public required string Status { get; set; }
-        public string? EmployeeName { get; set; } // Admin uchun qo‘shimcha
-    }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteJobApplication(int id)
+        {
+            // Job application ni topamiz
+            var jobApplication = await _context
+                .JobApplications.Include(ja => ja.Files) // Fayllarni ham olib kelish
+                .FirstOrDefaultAsync(ja => ja.Id == id);
 
-    public class JobApplicationUpdateDto
-    {
-        public required string Status { get; set; } // Faqat holatni yangilash uchun
+            if (jobApplication == null)
+            {
+                return NotFound("Ariza topilmadi");
+            }
+
+            // Fayllarni o'chirish
+            foreach (var file in jobApplication.Files)
+            {
+                string filePath = Path.Combine(
+                    _environment.WebRootPath,
+                    file.FilePath.TrimStart('/')
+                );
+
+                if (System.IO.File.Exists(filePath))
+                {
+                    System.IO.File.Delete(filePath); // Faylni o'chirish
+                }
+            }
+
+            // Job application ni va unga bog'langan fayllarni o'chirish
+            _context.JobApplications.Remove(jobApplication);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { Message = "Ariza va fayllari o'chirildi" });
+        }
     }
 }

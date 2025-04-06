@@ -12,9 +12,11 @@ namespace HRsystem.Data
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<Payroll> Payrolls { get; set; }
-        public DbSet<JobApplication> JobApplications { get; set; }
         public DbSet<Attendance> Attendances { get; set; }
-        public DbSet<WorkSchedule> WorkSchedules { get; set; } // Yangi qo‘shildi
+        public DbSet<Payment> Payments { get; set; }
+        public DbSet<WorkSchedule> WorkSchedules { get; set; }
+        public DbSet<JobApplication> JobApplications { get; set; }
+        public DbSet<JobApplicationFile> JobApplicationFiles { get; set; }
 
         // Model munosabatlari va konfiguratsiyalarni sozlash
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -49,14 +51,6 @@ namespace HRsystem.Data
                 .HasForeignKey(p => p.EmployeeId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // 3. JobApplication bilan Employee o‘rtasidagi munosabat
-            modelBuilder.Entity<JobApplication>().HasKey(j => j.ApplicationId);
-            modelBuilder
-                .Entity<JobApplication>()
-                .Property(ja => ja.PositionAppliedFor)
-                .IsRequired();
-            modelBuilder.Entity<JobApplication>().Property(ja => ja.Status).IsRequired();
-
             // 4. Attendance bilan Employee o‘rtasidagi 1:ko‘p munosabat
             modelBuilder
                 .Entity<Attendance>()
@@ -77,6 +71,19 @@ namespace HRsystem.Data
             modelBuilder.Entity<WorkSchedule>().Property(ws => ws.HourlyRate).IsRequired();
             modelBuilder.Entity<WorkSchedule>().Property(ws => ws.WorkStartTime).IsRequired();
             modelBuilder.Entity<WorkSchedule>().Property(ws => ws.WorkEndTime).IsRequired();
+
+            modelBuilder
+                .Entity<Payment>()
+                .HasOne(p => p.Employee)
+                .WithMany()
+                .HasForeignKey(p => p.EmployeeId);
+
+            modelBuilder
+                .Entity<Payment>()
+                .HasOne(p => p.Payroll)
+                .WithMany()
+                .HasForeignKey(p => p.PayrollId)
+                .OnDelete(DeleteBehavior.Restrict); // Payroll o‘chirilganda Payment saqlanib qoladi
         }
     }
 }

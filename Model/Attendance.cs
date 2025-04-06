@@ -8,5 +8,6 @@ namespace HRsystem.Models
         public DateTime? ExitTime { get; set; } // Turnikadan chiqish vaqti (nullable, agar hali chiqmagan bo‘lsa)
         public DateTime AttendanceDate { get; set; } // Yo‘qlama sanasi
         public Employee Employee { get; set; }
+        public decimal HoursWorked { get; internal set; }
     }
 }

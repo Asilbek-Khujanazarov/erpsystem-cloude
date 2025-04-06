@@ -5,16 +5,23 @@ namespace HRsystem.Models
 {
     public class JobApplication
     {
-        [Key]  // Explicit Primary Key
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Auto-increment
-        public int ApplicationId { get; set; }
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Route { get; set; }
+        public string Status { get; set; } = "Pending";
+        public DateTime AppliedAt { get; set; } = DateTime.UtcNow;
 
-        public int EmployeeId { get; set; }  // FK - Employee
+        public List<JobApplicationFile> Files { get; set; } = new();
+    }
 
-        public required string PositionAppliedFor { get; set; }
-        public DateTime ApplicationDate { get; set; }
-        public required string Status { get; set; }
-
-        public Employee Employee { get; set; } // Navigation Property
+    public class JobApplicationFile
+    {
+        public int Id { get; set; }
+        public string FileName { get; set; }
+        public string FilePath { get; set; }
+        public int JobApplicationId { get; set; }
+        public JobApplication JobApplication { get; set; }
     }
 }

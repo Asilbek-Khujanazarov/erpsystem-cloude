@@ -1,11 +1,11 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\0506df64-e0fc-4295-8be2-8483e353b4bc.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\1e82e99c-2079-414d-a7b1-89630182304c.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>HRsystem</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/HRsystem</BasePath>
-      <RelativePath>Images/0506df64-e0fc-4295-8be2-8483e353b4bc.jpg</RelativePath>
+      <RelativePath>Images/1e82e99c-2079-414d-a7b1-89630182304c.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -16,14 +16,158 @@
       <Integrity>vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\0506df64-e0fc-4295-8be2-8483e353b4bc.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\1e82e99c-2079-414d-a7b1-89630182304c.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\404c834c-c38b-46c2-923e-91a4620f7549.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\304afc74-dceb-4af4-9384-285a3e24561e.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>HRsystem</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/HRsystem</BasePath>
-      <RelativePath>Images/404c834c-c38b-46c2-923e-91a4620f7549.jpg</RelativePath>
+      <RelativePath>Images/304afc74-dceb-4af4-9384-285a3e24561e.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>i4ujzvjocd</Fingerprint>
+      <Integrity>vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\304afc74-dceb-4af4-9384-285a3e24561e.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\8986a820-9826-4f0c-838c-0f8d80a91dd4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>Images/8986a820-9826-4f0c-838c-0f8d80a91dd4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3usgl8q85x</Fingerprint>
+      <Integrity>BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\8986a820-9826-4f0c-838c-0f8d80a91dd4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\084939d7-9068-4a68-bcb6-eac6c5ea494f_New DOCX Document.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/084939d7-9068-4a68-bcb6-eac6c5ea494f_New DOCX Document.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5ipweew5fc</Fingerprint>
+      <Integrity>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\084939d7-9068-4a68-bcb6-eac6c5ea494f_New DOCX Document.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\090dbaf4-e90a-4874-8c5b-85864d1eb365_1742732287306.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/090dbaf4-e90a-4874-8c5b-85864d1eb365_1742732287306.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3usgl8q85x</Fingerprint>
+      <Integrity>BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\090dbaf4-e90a-4874-8c5b-85864d1eb365_1742732287306.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0a6adc8e-ea65-4b2f-a678-72aa7d899fab_New DOCX Document.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/0a6adc8e-ea65-4b2f-a678-72aa7d899fab_New DOCX Document.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5ipweew5fc</Fingerprint>
+      <Integrity>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0a6adc8e-ea65-4b2f-a678-72aa7d899fab_New DOCX Document.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0dd5dd51-2275-4c21-b4f8-8b7ea3df92b3_1742732287306.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/0dd5dd51-2275-4c21-b4f8-8b7ea3df92b3_1742732287306.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3usgl8q85x</Fingerprint>
+      <Integrity>BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0dd5dd51-2275-4c21-b4f8-8b7ea3df92b3_1742732287306.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2368e7cc-a13a-4a8d-8d1f-c9fc0907845d_New DOCX Document.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/2368e7cc-a13a-4a8d-8d1f-c9fc0907845d_New DOCX Document.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5ipweew5fc</Fingerprint>
+      <Integrity>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2368e7cc-a13a-4a8d-8d1f-c9fc0907845d_New DOCX Document.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2bacab8d-c678-4b19-aa26-6fa5d258b859_CV Asilbek Khujanazarov 2025 Feb.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/2bacab8d-c678-4b19-aa26-6fa5d258b859_CV Asilbek Khujanazarov 2025 Feb.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qv450tqjuh</Fingerprint>
+      <Integrity>CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2bacab8d-c678-4b19-aa26-6fa5d258b859_CV Asilbek Khujanazarov 2025 Feb.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2dfb961a-db75-49dc-92bb-7f0adb2c2659_istockphoto-173242750-612x612.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/2dfb961a-db75-49dc-92bb-7f0adb2c2659_istockphoto-173242750-612x612.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -34,32 +178,50 @@
       <Integrity>vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\404c834c-c38b-46c2-923e-91a4620f7549.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2dfb961a-db75-49dc-92bb-7f0adb2c2659_istockphoto-173242750-612x612.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\610e514d-a7f7-4bf9-a23d-49993243ea42.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\33d0a5a5-bd25-434a-b34d-7061ed5b4553_New DOCX Document.docx'))">
       <SourceType>Package</SourceType>
       <SourceId>HRsystem</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/HRsystem</BasePath>
-      <RelativePath>Images/610e514d-a7f7-4bf9-a23d-49993243ea42.png</RelativePath>
+      <RelativePath>uploads/33d0a5a5-bd25-434a-b34d-7061ed5b4553_New DOCX Document.docx</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oa1aiez56q</Fingerprint>
-      <Integrity>EN/tNkkepKJqkA2IZhb0eQR3c/loNX2SaJS4BayW224=</Integrity>
+      <Fingerprint>5ipweew5fc</Fingerprint>
+      <Integrity>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\610e514d-a7f7-4bf9-a23d-49993243ea42.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\33d0a5a5-bd25-434a-b34d-7061ed5b4553_New DOCX Document.docx'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\e62adced-1eff-4de0-b766-3dfcf37582a9.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\40a5d674-5ef9-4d44-a1b6-97e052bb2593_CV Asilbek Khujanazarov 2025 Feb.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>HRsystem</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/HRsystem</BasePath>
-      <RelativePath>Images/e62adced-1eff-4de0-b766-3dfcf37582a9.jpg</RelativePath>
+      <RelativePath>uploads/40a5d674-5ef9-4d44-a1b6-97e052bb2593_CV Asilbek Khujanazarov 2025 Feb.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qv450tqjuh</Fingerprint>
+      <Integrity>CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\40a5d674-5ef9-4d44-a1b6-97e052bb2593_CV Asilbek Khujanazarov 2025 Feb.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4b9b3ebc-b10c-4875-a27e-72afdc4ab26f_istockphoto-173242750-612x612.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/4b9b3ebc-b10c-4875-a27e-72afdc4ab26f_istockphoto-173242750-612x612.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -70,7 +232,331 @@
       <Integrity>vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\e62adced-1eff-4de0-b766-3dfcf37582a9.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4b9b3ebc-b10c-4875-a27e-72afdc4ab26f_istockphoto-173242750-612x612.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4c5dbf59-440b-4947-a2df-29bf6fc50b01_CV Asilbek Khujanazarov 2025 Feb.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/4c5dbf59-440b-4947-a2df-29bf6fc50b01_CV Asilbek Khujanazarov 2025 Feb.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qv450tqjuh</Fingerprint>
+      <Integrity>CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4c5dbf59-440b-4947-a2df-29bf6fc50b01_CV Asilbek Khujanazarov 2025 Feb.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\56f72bd0-3a49-47d2-a30c-c95ce98a1059_istockphoto-173242750-612x612.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/56f72bd0-3a49-47d2-a30c-c95ce98a1059_istockphoto-173242750-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cu0kpwxl44</Fingerprint>
+      <Integrity>vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\56f72bd0-3a49-47d2-a30c-c95ce98a1059_istockphoto-173242750-612x612.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5d00c7e9-b410-432a-a5c2-529d5299be5e_CV Asilbek Khujanazarov.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/5d00c7e9-b410-432a-a5c2-529d5299be5e_CV Asilbek Khujanazarov.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vfliyhkk1n</Fingerprint>
+      <Integrity>C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5d00c7e9-b410-432a-a5c2-529d5299be5e_CV Asilbek Khujanazarov.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\69c3b65c-145a-4852-9933-8f81debb1dc8_CV Asilbek Khujanazarov 2025 Feb.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/69c3b65c-145a-4852-9933-8f81debb1dc8_CV Asilbek Khujanazarov 2025 Feb.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qv450tqjuh</Fingerprint>
+      <Integrity>CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\69c3b65c-145a-4852-9933-8f81debb1dc8_CV Asilbek Khujanazarov 2025 Feb.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7e1615c6-4cfc-407f-82b8-3c633d9bdc00_CV Asilbek Khujanazarov 2025 Feb.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/7e1615c6-4cfc-407f-82b8-3c633d9bdc00_CV Asilbek Khujanazarov 2025 Feb.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qv450tqjuh</Fingerprint>
+      <Integrity>CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7e1615c6-4cfc-407f-82b8-3c633d9bdc00_CV Asilbek Khujanazarov 2025 Feb.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7e9f3533-cfa0-48e9-97aa-725e1d040f74_CV Asilbek Khujanazarov 2025 Feb.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/7e9f3533-cfa0-48e9-97aa-725e1d040f74_CV Asilbek Khujanazarov 2025 Feb.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qv450tqjuh</Fingerprint>
+      <Integrity>CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7e9f3533-cfa0-48e9-97aa-725e1d040f74_CV Asilbek Khujanazarov 2025 Feb.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8094e312-acab-4a91-a41e-591f998297c4_istockphoto-173242750-612x612.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/8094e312-acab-4a91-a41e-591f998297c4_istockphoto-173242750-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cu0kpwxl44</Fingerprint>
+      <Integrity>vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8094e312-acab-4a91-a41e-591f998297c4_istockphoto-173242750-612x612.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\99cb4ac8-a79f-4788-a80b-e82d8380e596_New PPTX Presentation.pptx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/99cb4ac8-a79f-4788-a80b-e82d8380e596_New PPTX Presentation.pptx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fkwolvtn0l</Fingerprint>
+      <Integrity>31vWBVBls5Z/95hFPlVmUeM0iKOJizZYnhyyW71v3WQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\99cb4ac8-a79f-4788-a80b-e82d8380e596_New PPTX Presentation.pptx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9e12f43f-86a5-4a6f-a48a-fd54e0a633de_istockphoto-173242750-612x612.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/9e12f43f-86a5-4a6f-a48a-fd54e0a633de_istockphoto-173242750-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cu0kpwxl44</Fingerprint>
+      <Integrity>vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9e12f43f-86a5-4a6f-a48a-fd54e0a633de_istockphoto-173242750-612x612.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a2c66c2f-6f79-43de-bc4a-99f7a042f030_New DOCX Document.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/a2c66c2f-6f79-43de-bc4a-99f7a042f030_New DOCX Document.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5ipweew5fc</Fingerprint>
+      <Integrity>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a2c66c2f-6f79-43de-bc4a-99f7a042f030_New DOCX Document.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a5e37eaa-17db-4abc-a621-b5238e318020_CV Asilbek Khujanazarov 2025 Feb.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/a5e37eaa-17db-4abc-a621-b5238e318020_CV Asilbek Khujanazarov 2025 Feb.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qv450tqjuh</Fingerprint>
+      <Integrity>CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a5e37eaa-17db-4abc-a621-b5238e318020_CV Asilbek Khujanazarov 2025 Feb.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b05d3ff5-af47-4360-adc4-5503148c18f7_CV Asilbek Khujanazarov.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/b05d3ff5-af47-4360-adc4-5503148c18f7_CV Asilbek Khujanazarov.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vfliyhkk1n</Fingerprint>
+      <Integrity>C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b05d3ff5-af47-4360-adc4-5503148c18f7_CV Asilbek Khujanazarov.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ced94b0b-9f4a-4973-87fa-2c0517d123ee_CV Asilbek Khujanazarov 2025 Feb.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/ced94b0b-9f4a-4973-87fa-2c0517d123ee_CV Asilbek Khujanazarov 2025 Feb.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qv450tqjuh</Fingerprint>
+      <Integrity>CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ced94b0b-9f4a-4973-87fa-2c0517d123ee_CV Asilbek Khujanazarov 2025 Feb.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d7e85a9d-d3df-439e-8ef0-e6bbfc44ea28_CV Asilbek Khujanazarov 2025 Feb.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/d7e85a9d-d3df-439e-8ef0-e6bbfc44ea28_CV Asilbek Khujanazarov 2025 Feb.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qv450tqjuh</Fingerprint>
+      <Integrity>CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d7e85a9d-d3df-439e-8ef0-e6bbfc44ea28_CV Asilbek Khujanazarov 2025 Feb.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ed6abb02-be76-44ee-a287-8065bddfc128_CV Asilbek Khujanazarov.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/ed6abb02-be76-44ee-a287-8065bddfc128_CV Asilbek Khujanazarov.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vfliyhkk1n</Fingerprint>
+      <Integrity>C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ed6abb02-be76-44ee-a287-8065bddfc128_CV Asilbek Khujanazarov.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\edf76ae3-f42b-48ce-8954-bebe14d53f02_bunch-bananas-isolated-on-white-600nw-1722111529.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/edf76ae3-f42b-48ce-8954-bebe14d53f02_bunch-bananas-isolated-on-white-600nw-1722111529.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mf96mv6czl</Fingerprint>
+      <Integrity>vnhhvsJJp2aIc0qwf6ipvV7zyBKR8J92K3DSOyvXl/0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\edf76ae3-f42b-48ce-8954-bebe14d53f02_bunch-bananas-isolated-on-white-600nw-1722111529.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f26adf2e-4450-4529-9cd2-4b7dec3f7709_istockphoto-173242750-612x612.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/f26adf2e-4450-4529-9cd2-4b7dec3f7709_istockphoto-173242750-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cu0kpwxl44</Fingerprint>
+      <Integrity>vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f26adf2e-4450-4529-9cd2-4b7dec3f7709_istockphoto-173242750-612x612.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f92360ed-c693-435c-a801-79c24154f8a0_istockphoto-173242750-612x612.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HRsystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HRsystem</BasePath>
+      <RelativePath>uploads/f92360ed-c693-435c-a801-79c24154f8a0_istockphoto-173242750-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cu0kpwxl44</Fingerprint>
+      <Integrity>vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f92360ed-c693-435c-a801-79c24154f8a0_istockphoto-173242750-612x612.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

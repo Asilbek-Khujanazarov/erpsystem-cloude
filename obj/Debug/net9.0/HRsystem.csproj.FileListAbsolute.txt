@@ -308,3 +308,10 @@ C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\AutoMapper.Extensions.
 C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\HRsystem.staticwebassets.runtime.json
 C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\package-lock.json
 C:\Users\asilb\OneDrive\Desktop\HRsystem\bin\Debug\net9.0\package.json
+C:\Users\asilb\OneDrive\Desktop\HRsystem\obj\Debug\net9.0\compressed\490bkzxtlp-fc59uvtef3.gz
+C:\Users\asilb\OneDrive\Desktop\HRsystem\obj\Debug\net9.0\compressed\k2p9abrkrg-vagikyz9qx.gz
+C:\Users\asilb\OneDrive\Desktop\HRsystem\obj\Debug\net9.0\compressed\wtzbeph4il-39tegmrjtp.gz
+C:\Users\asilb\OneDrive\Desktop\HRsystem\obj\Debug\net9.0\compressed\ztzwzlwkje-tvy3j3n584.gz
+C:\Users\asilb\OneDrive\Desktop\HRsystem\obj\Debug\net9.0\compressed\hr6oghw0hy-dmn5ggifut.gz
+C:\Users\asilb\OneDrive\Desktop\HRsystem\obj\Debug\net9.0\compressed\8821kpgtbw-3o7gjn6y7m.gz
+C:\Users\asilb\OneDrive\Desktop\HRsystem\obj\Debug\net9.0\compressed\y7cizxr2pw-jhcnv9o1pj.gz

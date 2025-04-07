@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P/U/4/EqO5ACnhyFOSQVXtwRA1oIMSfo8Y6eRvXJDl8=",
+  "Hash": "6SmQ73TjWPMPeCMZJuZ9QIl5T/gcoe2Hpe0I8Ad/ssM=",
   "Source": "HRsystem",
   "BasePath": "_content/HRsystem",
   "Mode": "Default",
@@ -17,12 +17,159 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\1e82e99c-2079-414d-a7b1-89630182304c.jpg",
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "3rdpartylicenses#[.{fingerprint=fc59uvtef3}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gyaiphazf8",
+      "Integrity": "CPs0N/ns5nmaIsBazJZuZtAjiLBHLZw55rGl/W95Op4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt"
+    },
+    {
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "index#[.{fingerprint=3o7gjn6y7m}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mlnx1u895o",
+      "Integrity": "uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "styles-APQXLMEW#[.{fingerprint=dmn5ggifut}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "r14rm1qdvs",
+      "Integrity": "wViez1CukA2HysHRw6bbwe5s3rspbv0syccuEY/Rr5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css"
+    },
+    {
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "favicon#[.{fingerprint=vagikyz9qx}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "spc2whqxhc",
+      "Integrity": "4JD5TBkaKkYJVw5DzZh1jKJdCSTQYxpre7fdXrSQ/P8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "polyfills-FFHMD2TL#[.{fingerprint=39tegmrjtp}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "w4lx0xupn9",
+      "Integrity": "wNJFFxSczIGO97svjP9ishXOSHGLv5Y4VbZ5Mb0PkLw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js"
+    },
+    {
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "main-3JLHADOU#[.{fingerprint=jhcnv9o1pj}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "v26gqc0tvn",
+      "Integrity": "OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js"
+    },
+    {
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "prerendered-routes#[.{fingerprint=tvy3j3n584}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "flm15mbdxq",
+      "Integrity": "o1VjVQwEDpUxfB4dvCKgJktgYa0JihcBq69Qd6fuU3I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json"
+    },
+    {
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
-      "RelativePath": "Images/1e82e99c-2079-414d-a7b1-89630182304c#[.{fingerprint}]?.jpg",
+      "RelativePath": "3rdpartylicenses#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,19 +178,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i4ujzvjocd",
-      "Integrity": "vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw=",
+      "Fingerprint": "fc59uvtef3",
+      "Integrity": "sXLHs3L8QD7cBAbN+2S0wj4dH1A33Uey9g+u34bSjro=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\1e82e99c-2079-414d-a7b1-89630182304c.jpg"
+      "OriginalItemSpec": "wwwroot\\3rdpartylicenses.txt"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\304afc74-dceb-4af4-9384-285a3e24561e.jpg",
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
-      "RelativePath": "Images/304afc74-dceb-4af4-9384-285a3e24561e#[.{fingerprint}]?.jpg",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,19 +199,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i4ujzvjocd",
-      "Integrity": "vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw=",
+      "Fingerprint": "vagikyz9qx",
+      "Integrity": "+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\304afc74-dceb-4af4-9384-285a3e24561e.jpg"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\8986a820-9826-4f0c-838c-0f8d80a91dd4.jpg",
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
-      "RelativePath": "Images/8986a820-9826-4f0c-838c-0f8d80a91dd4#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/91911542-f6ee-4a39-b699-eb630a371c79#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -77,15 +224,15 @@
       "Integrity": "BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\8986a820-9826-4f0c-838c-0f8d80a91dd4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\084939d7-9068-4a68-bcb6-eac6c5ea494f_New DOCX Document.docx",
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/084939d7-9068-4a68-bcb6-eac6c5ea494f_New DOCX Document#[.{fingerprint}]?.docx",
+      "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -94,19 +241,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "3o7gjn6y7m",
+      "Integrity": "0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\084939d7-9068-4a68-bcb6-eac6c5ea494f_New DOCX Document.docx"
+      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\090dbaf4-e90a-4874-8c5b-85864d1eb365_1742732287306.jpg",
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/090dbaf4-e90a-4874-8c5b-85864d1eb365_1742732287306#[.{fingerprint}]?.jpg",
+      "RelativePath": "main-3JLHADOU#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -115,19 +262,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3usgl8q85x",
-      "Integrity": "BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=",
+      "Fingerprint": "jhcnv9o1pj",
+      "Integrity": "96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\090dbaf4-e90a-4874-8c5b-85864d1eb365_1742732287306.jpg"
+      "OriginalItemSpec": "wwwroot\\main-3JLHADOU.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\0a6adc8e-ea65-4b2f-a678-72aa7d899fab_New DOCX Document.docx",
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/0a6adc8e-ea65-4b2f-a678-72aa7d899fab_New DOCX Document#[.{fingerprint}]?.docx",
+      "RelativePath": "polyfills-FFHMD2TL#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -136,19 +283,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "39tegmrjtp",
+      "Integrity": "adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\0a6adc8e-ea65-4b2f-a678-72aa7d899fab_New DOCX Document.docx"
+      "OriginalItemSpec": "wwwroot\\polyfills-FFHMD2TL.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\0dd5dd51-2275-4c21-b4f8-8b7ea3df92b3_1742732287306.jpg",
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/0dd5dd51-2275-4c21-b4f8-8b7ea3df92b3_1742732287306#[.{fingerprint}]?.jpg",
+      "RelativePath": "prerendered-routes#[.{fingerprint}]?.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -157,19 +304,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3usgl8q85x",
-      "Integrity": "BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=",
+      "Fingerprint": "tvy3j3n584",
+      "Integrity": "p53cyKEVGQ6cGUee02kUdBp9HbdPChFTUp78gHJVBf4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\0dd5dd51-2275-4c21-b4f8-8b7ea3df92b3_1742732287306.jpg"
+      "OriginalItemSpec": "wwwroot\\prerendered-routes.json"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\2368e7cc-a13a-4a8d-8d1f-c9fc0907845d_New DOCX Document.docx",
+      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/2368e7cc-a13a-4a8d-8d1f-c9fc0907845d_New DOCX Document#[.{fingerprint}]?.docx",
+      "RelativePath": "styles-APQXLMEW#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -178,500 +325,80 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "dmn5ggifut",
+      "Integrity": "1TZvm/k0xNgMXWaBYdbEHmNVe09jrFKVH2Mpk7yiRzw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\2368e7cc-a13a-4a8d-8d1f-c9fc0907845d_New DOCX Document.docx"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\2bacab8d-c678-4b19-aa26-6fa5d258b859_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/2bacab8d-c678-4b19-aa26-6fa5d258b859_CV Asilbek Khujanazarov 2025 Feb#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qv450tqjuh",
-      "Integrity": "CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\2bacab8d-c678-4b19-aa26-6fa5d258b859_CV Asilbek Khujanazarov 2025 Feb.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\2dfb961a-db75-49dc-92bb-7f0adb2c2659_istockphoto-173242750-612x612.jpg",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/2dfb961a-db75-49dc-92bb-7f0adb2c2659_istockphoto-173242750-612x612#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cu0kpwxl44",
-      "Integrity": "vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\2dfb961a-db75-49dc-92bb-7f0adb2c2659_istockphoto-173242750-612x612.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\33d0a5a5-bd25-434a-b34d-7061ed5b4553_New DOCX Document.docx",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/33d0a5a5-bd25-434a-b34d-7061ed5b4553_New DOCX Document#[.{fingerprint}]?.docx",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\33d0a5a5-bd25-434a-b34d-7061ed5b4553_New DOCX Document.docx"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\40a5d674-5ef9-4d44-a1b6-97e052bb2593_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/40a5d674-5ef9-4d44-a1b6-97e052bb2593_CV Asilbek Khujanazarov 2025 Feb#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qv450tqjuh",
-      "Integrity": "CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\40a5d674-5ef9-4d44-a1b6-97e052bb2593_CV Asilbek Khujanazarov 2025 Feb.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\4b9b3ebc-b10c-4875-a27e-72afdc4ab26f_istockphoto-173242750-612x612.jpg",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/4b9b3ebc-b10c-4875-a27e-72afdc4ab26f_istockphoto-173242750-612x612#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cu0kpwxl44",
-      "Integrity": "vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\4b9b3ebc-b10c-4875-a27e-72afdc4ab26f_istockphoto-173242750-612x612.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\4c5dbf59-440b-4947-a2df-29bf6fc50b01_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/4c5dbf59-440b-4947-a2df-29bf6fc50b01_CV Asilbek Khujanazarov 2025 Feb#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qv450tqjuh",
-      "Integrity": "CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\4c5dbf59-440b-4947-a2df-29bf6fc50b01_CV Asilbek Khujanazarov 2025 Feb.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\56f72bd0-3a49-47d2-a30c-c95ce98a1059_istockphoto-173242750-612x612.jpg",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/56f72bd0-3a49-47d2-a30c-c95ce98a1059_istockphoto-173242750-612x612#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cu0kpwxl44",
-      "Integrity": "vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\56f72bd0-3a49-47d2-a30c-c95ce98a1059_istockphoto-173242750-612x612.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\5d00c7e9-b410-432a-a5c2-529d5299be5e_CV Asilbek Khujanazarov.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/5d00c7e9-b410-432a-a5c2-529d5299be5e_CV Asilbek Khujanazarov#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "vfliyhkk1n",
-      "Integrity": "C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\5d00c7e9-b410-432a-a5c2-529d5299be5e_CV Asilbek Khujanazarov.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\69c3b65c-145a-4852-9933-8f81debb1dc8_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/69c3b65c-145a-4852-9933-8f81debb1dc8_CV Asilbek Khujanazarov 2025 Feb#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qv450tqjuh",
-      "Integrity": "CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\69c3b65c-145a-4852-9933-8f81debb1dc8_CV Asilbek Khujanazarov 2025 Feb.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\7e1615c6-4cfc-407f-82b8-3c633d9bdc00_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/7e1615c6-4cfc-407f-82b8-3c633d9bdc00_CV Asilbek Khujanazarov 2025 Feb#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qv450tqjuh",
-      "Integrity": "CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\7e1615c6-4cfc-407f-82b8-3c633d9bdc00_CV Asilbek Khujanazarov 2025 Feb.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\7e9f3533-cfa0-48e9-97aa-725e1d040f74_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/7e9f3533-cfa0-48e9-97aa-725e1d040f74_CV Asilbek Khujanazarov 2025 Feb#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qv450tqjuh",
-      "Integrity": "CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\7e9f3533-cfa0-48e9-97aa-725e1d040f74_CV Asilbek Khujanazarov 2025 Feb.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\8094e312-acab-4a91-a41e-591f998297c4_istockphoto-173242750-612x612.jpg",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/8094e312-acab-4a91-a41e-591f998297c4_istockphoto-173242750-612x612#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cu0kpwxl44",
-      "Integrity": "vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\8094e312-acab-4a91-a41e-591f998297c4_istockphoto-173242750-612x612.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\99cb4ac8-a79f-4788-a80b-e82d8380e596_New PPTX Presentation.pptx",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/99cb4ac8-a79f-4788-a80b-e82d8380e596_New PPTX Presentation#[.{fingerprint}]?.pptx",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fkwolvtn0l",
-      "Integrity": "31vWBVBls5Z/95hFPlVmUeM0iKOJizZYnhyyW71v3WQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\99cb4ac8-a79f-4788-a80b-e82d8380e596_New PPTX Presentation.pptx"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\9e12f43f-86a5-4a6f-a48a-fd54e0a633de_istockphoto-173242750-612x612.jpg",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/9e12f43f-86a5-4a6f-a48a-fd54e0a633de_istockphoto-173242750-612x612#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cu0kpwxl44",
-      "Integrity": "vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\9e12f43f-86a5-4a6f-a48a-fd54e0a633de_istockphoto-173242750-612x612.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\a2c66c2f-6f79-43de-bc4a-99f7a042f030_New DOCX Document.docx",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/a2c66c2f-6f79-43de-bc4a-99f7a042f030_New DOCX Document#[.{fingerprint}]?.docx",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\a2c66c2f-6f79-43de-bc4a-99f7a042f030_New DOCX Document.docx"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\a5e37eaa-17db-4abc-a621-b5238e318020_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/a5e37eaa-17db-4abc-a621-b5238e318020_CV Asilbek Khujanazarov 2025 Feb#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qv450tqjuh",
-      "Integrity": "CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\a5e37eaa-17db-4abc-a621-b5238e318020_CV Asilbek Khujanazarov 2025 Feb.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\b05d3ff5-af47-4360-adc4-5503148c18f7_CV Asilbek Khujanazarov.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/b05d3ff5-af47-4360-adc4-5503148c18f7_CV Asilbek Khujanazarov#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "vfliyhkk1n",
-      "Integrity": "C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\b05d3ff5-af47-4360-adc4-5503148c18f7_CV Asilbek Khujanazarov.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\ced94b0b-9f4a-4973-87fa-2c0517d123ee_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/ced94b0b-9f4a-4973-87fa-2c0517d123ee_CV Asilbek Khujanazarov 2025 Feb#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qv450tqjuh",
-      "Integrity": "CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\ced94b0b-9f4a-4973-87fa-2c0517d123ee_CV Asilbek Khujanazarov 2025 Feb.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\d7e85a9d-d3df-439e-8ef0-e6bbfc44ea28_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/d7e85a9d-d3df-439e-8ef0-e6bbfc44ea28_CV Asilbek Khujanazarov 2025 Feb#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qv450tqjuh",
-      "Integrity": "CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\d7e85a9d-d3df-439e-8ef0-e6bbfc44ea28_CV Asilbek Khujanazarov 2025 Feb.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\ed6abb02-be76-44ee-a287-8065bddfc128_CV Asilbek Khujanazarov.pdf",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/ed6abb02-be76-44ee-a287-8065bddfc128_CV Asilbek Khujanazarov#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "vfliyhkk1n",
-      "Integrity": "C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\ed6abb02-be76-44ee-a287-8065bddfc128_CV Asilbek Khujanazarov.pdf"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\edf76ae3-f42b-48ce-8954-bebe14d53f02_bunch-bananas-isolated-on-white-600nw-1722111529.webp",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/edf76ae3-f42b-48ce-8954-bebe14d53f02_bunch-bananas-isolated-on-white-600nw-1722111529#[.{fingerprint}]?.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mf96mv6czl",
-      "Integrity": "vnhhvsJJp2aIc0qwf6ipvV7zyBKR8J92K3DSOyvXl/0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\edf76ae3-f42b-48ce-8954-bebe14d53f02_bunch-bananas-isolated-on-white-600nw-1722111529.webp"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\f26adf2e-4450-4529-9cd2-4b7dec3f7709_istockphoto-173242750-612x612.jpg",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/f26adf2e-4450-4529-9cd2-4b7dec3f7709_istockphoto-173242750-612x612#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cu0kpwxl44",
-      "Integrity": "vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\f26adf2e-4450-4529-9cd2-4b7dec3f7709_istockphoto-173242750-612x612.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\f92360ed-c693-435c-a801-79c24154f8a0_istockphoto-173242750-612x612.jpg",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "uploads/f92360ed-c693-435c-a801-79c24154f8a0_istockphoto-173242750-612x612#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cu0kpwxl44",
-      "Integrity": "vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\f92360ed-c693-435c-a801-79c24154f8a0_istockphoto-173242750-612x612.jpg"
+      "OriginalItemSpec": "wwwroot\\styles-APQXLMEW.css"
     }
   ],
   "Endpoints": [
     {
-      "Route": "Images/1e82e99c-2079-414d-a7b1-89630182304c.i4ujzvjocd.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\1e82e99c-2079-414d-a7b1-89630182304c.jpg",
+      "Route": "3rdpartylicenses.fc59uvtef3.txt",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000154178230"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6485"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CPs0N/ns5nmaIsBazJZuZtAjiLBHLZw55rGl/W95Op4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sXLHs3L8QD7cBAbN+2S0wj4dH1A33Uey9g+u34bSjro=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fc59uvtef3"
+        },
+        {
+          "Name": "label",
+          "Value": "3rdpartylicenses.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sXLHs3L8QD7cBAbN+2S0wj4dH1A33Uey9g+u34bSjro="
+        }
+      ]
+    },
+    {
+      "Route": "3rdpartylicenses.fc59uvtef3.txt",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -680,19 +407,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4742656"
+          "Value": "39123"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "text/plain"
         },
         {
           "Name": "ETag",
-          "Value": "\"vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw=\""
+          "Value": "\"sXLHs3L8QD7cBAbN+2S0wj4dH1A33Uey9g+u34bSjro=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 18:39:23 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -702,21 +429,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "i4ujzvjocd"
+          "Value": "fc59uvtef3"
         },
         {
           "Name": "label",
-          "Value": "Images/1e82e99c-2079-414d-a7b1-89630182304c.jpg"
+          "Value": "3rdpartylicenses.txt"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw="
+          "Value": "sha256-sXLHs3L8QD7cBAbN+2S0wj4dH1A33Uey9g+u34bSjro="
         }
       ]
     },
     {
-      "Route": "Images/1e82e99c-2079-414d-a7b1-89630182304c.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\1e82e99c-2079-414d-a7b1-89630182304c.jpg",
+      "Route": "3rdpartylicenses.fc59uvtef3.txt.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -725,19 +452,264 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4742656"
+          "Value": "6485"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "text/plain"
         },
         {
           "Name": "ETag",
-          "Value": "\"vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw=\""
+          "Value": "\"CPs0N/ns5nmaIsBazJZuZtAjiLBHLZw55rGl/W95Op4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 18:39:23 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fc59uvtef3"
+        },
+        {
+          "Name": "label",
+          "Value": "3rdpartylicenses.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CPs0N/ns5nmaIsBazJZuZtAjiLBHLZw55rGl/W95Op4="
+        }
+      ]
+    },
+    {
+      "Route": "3rdpartylicenses.txt",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000154178230"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6485"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CPs0N/ns5nmaIsBazJZuZtAjiLBHLZw55rGl/W95Op4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sXLHs3L8QD7cBAbN+2S0wj4dH1A33Uey9g+u34bSjro=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sXLHs3L8QD7cBAbN+2S0wj4dH1A33Uey9g+u34bSjro="
+        }
+      ]
+    },
+    {
+      "Route": "3rdpartylicenses.txt",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sXLHs3L8QD7cBAbN+2S0wj4dH1A33Uey9g+u34bSjro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sXLHs3L8QD7cBAbN+2S0wj4dH1A33Uey9g+u34bSjro="
+        }
+      ]
+    },
+    {
+      "Route": "3rdpartylicenses.txt.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CPs0N/ns5nmaIsBazJZuZtAjiLBHLZw55rGl/W95Op4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CPs0N/ns5nmaIsBazJZuZtAjiLBHLZw55rGl/W95Op4="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000237360551"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4212"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4JD5TBkaKkYJVw5DzZh1jKJdCSTQYxpre7fdXrSQ/P8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 15:01:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 15:01:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -747,13 +719,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw="
+          "Value": "sha256-+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8="
         }
       ]
     },
     {
-      "Route": "Images/304afc74-dceb-4af4-9384-285a3e24561e.i4ujzvjocd.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\304afc74-dceb-4af4-9384-285a3e24561e.jpg",
+      "Route": "favicon.ico.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -762,19 +734,127 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4742656"
+          "Value": "4212"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/x-icon"
         },
         {
           "Name": "ETag",
-          "Value": "\"vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw=\""
+          "Value": "\"4JD5TBkaKkYJVw5DzZh1jKJdCSTQYxpre7fdXrSQ/P8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 12:29:43 GMT"
+          "Value": "Fri, 21 Mar 2025 15:01:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4JD5TBkaKkYJVw5DzZh1jKJdCSTQYxpre7fdXrSQ/P8="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.vagikyz9qx.ico",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000237360551"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4212"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4JD5TBkaKkYJVw5DzZh1jKJdCSTQYxpre7fdXrSQ/P8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 15:01:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vagikyz9qx"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.vagikyz9qx.ico",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 15:01:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -784,21 +864,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "i4ujzvjocd"
+          "Value": "vagikyz9qx"
         },
         {
           "Name": "label",
-          "Value": "Images/304afc74-dceb-4af4-9384-285a3e24561e.jpg"
+          "Value": "favicon.ico"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw="
+          "Value": "sha256-+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8="
         }
       ]
     },
     {
-      "Route": "Images/304afc74-dceb-4af4-9384-285a3e24561e.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\304afc74-dceb-4af4-9384-285a3e24561e.jpg",
+      "Route": "favicon.vagikyz9qx.ico.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -807,35 +887,51 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4742656"
+          "Value": "4212"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/x-icon"
         },
         {
           "Name": "ETag",
-          "Value": "\"vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw=\""
+          "Value": "\"4JD5TBkaKkYJVw5DzZh1jKJdCSTQYxpre7fdXrSQ/P8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 12:29:43 GMT"
+          "Value": "Fri, 21 Mar 2025 15:01:40 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "vagikyz9qx"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico.gz"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-vtHy2P085OHWj2wdwlFcRRMs7i4yANU8vOHAkerCqiw="
+          "Value": "sha256-4JD5TBkaKkYJVw5DzZh1jKJdCSTQYxpre7fdXrSQ/P8="
         }
       ]
     },
     {
-      "Route": "Images/8986a820-9826-4f0c-838c-0f8d80a91dd4.3usgl8q85x.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\8986a820-9826-4f0c-838c-0f8d80a91dd4.jpg",
+      "Route": "images/91911542-f6ee-4a39-b699-eb630a371c79.3usgl8q85x.jpg",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -856,7 +952,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 10:31:35 GMT"
+          "Value": "Mon, 07 Apr 2025 10:23:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -870,7 +966,7 @@
         },
         {
           "Name": "label",
-          "Value": "Images/8986a820-9826-4f0c-838c-0f8d80a91dd4.jpg"
+          "Value": "images/91911542-f6ee-4a39-b699-eb630a371c79.jpg"
         },
         {
           "Name": "integrity",
@@ -879,8 +975,8 @@
       ]
     },
     {
-      "Route": "Images/8986a820-9826-4f0c-838c-0f8d80a91dd4.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\Images\\8986a820-9826-4f0c-838c-0f8d80a91dd4.jpg",
+      "Route": "images/91911542-f6ee-4a39-b699-eb630a371c79.jpg",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -901,7 +997,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 10:31:35 GMT"
+          "Value": "Mon, 07 Apr 2025 10:23:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -916,8 +1012,71 @@
       ]
     },
     {
-      "Route": "uploads/084939d7-9068-4a68-bcb6-eac6c5ea494f_New DOCX Document.5ipweew5fc.docx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\084939d7-9068-4a68-bcb6-eac6c5ea494f_New DOCX Document.docx",
+      "Route": "index.3o7gjn6y7m.html",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000271591526"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3681"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3o7gjn6y7m"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8="
+        }
+      ]
+    },
+    {
+      "Route": "index.3o7gjn6y7m.html",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -926,19 +1085,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "23565"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          "Value": "text/html"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 18:17:41 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -948,21 +1107,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "3o7gjn6y7m"
         },
         {
           "Name": "label",
-          "Value": "uploads/084939d7-9068-4a68-bcb6-eac6c5ea494f_New DOCX Document.docx"
+          "Value": "index.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8="
         }
       ]
     },
     {
-      "Route": "uploads/084939d7-9068-4a68-bcb6-eac6c5ea494f_New DOCX Document.docx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\084939d7-9068-4a68-bcb6-eac6c5ea494f_New DOCX Document.docx",
+      "Route": "index.3o7gjn6y7m.html.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -971,19 +1130,127 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "3681"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          "Value": "text/html"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 18:17:41 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3o7gjn6y7m"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000271591526"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3681"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -993,13 +1260,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8="
         }
       ]
     },
     {
-      "Route": "uploads/090dbaf4-e90a-4874-8c5b-85864d1eb365_1742732287306.3usgl8q85x.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\090dbaf4-e90a-4874-8c5b-85864d1eb365_1742732287306.jpg",
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1008,19 +1275,127 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30882"
+          "Value": "3681"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "text/html"
         },
         {
           "Name": "ETag",
-          "Value": "\"BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=\""
+          "Value": "\"uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 13:41:25 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU="
+        }
+      ]
+    },
+    {
+      "Route": "main-3JLHADOU.jhcnv9o1pj.js",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000002771219"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "360851"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jhcnv9o1pj"
+        },
+        {
+          "Name": "label",
+          "Value": "main-3JLHADOU.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI="
+        }
+      ]
+    },
+    {
+      "Route": "main-3JLHADOU.jhcnv9o1pj.js",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1405605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1030,21 +1405,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3usgl8q85x"
+          "Value": "jhcnv9o1pj"
         },
         {
           "Name": "label",
-          "Value": "uploads/090dbaf4-e90a-4874-8c5b-85864d1eb365_1742732287306.jpg"
+          "Value": "main-3JLHADOU.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM="
+          "Value": "sha256-96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI="
         }
       ]
     },
     {
-      "Route": "uploads/090dbaf4-e90a-4874-8c5b-85864d1eb365_1742732287306.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\090dbaf4-e90a-4874-8c5b-85864d1eb365_1742732287306.jpg",
+      "Route": "main-3JLHADOU.jhcnv9o1pj.js.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1053,80 +1428,106 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30882"
+          "Value": "360851"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=\""
+          "Value": "\"OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 13:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/0a6adc8e-ea65-4b2f-a678-72aa7d899fab_New DOCX Document.5ipweew5fc.docx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\0a6adc8e-ea65-4b2f-a678-72aa7d899fab_New DOCX Document.docx",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:14:37 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "jhcnv9o1pj"
         },
         {
           "Name": "label",
-          "Value": "uploads/0a6adc8e-ea65-4b2f-a678-72aa7d899fab_New DOCX Document.docx"
+          "Value": "main-3JLHADOU.js.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI="
         }
       ]
     },
     {
-      "Route": "uploads/0a6adc8e-ea65-4b2f-a678-72aa7d899fab_New DOCX Document.docx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\0a6adc8e-ea65-4b2f-a678-72aa7d899fab_New DOCX Document.docx",
+      "Route": "main-3JLHADOU.js",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000002771219"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "360851"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI="
+        }
+      ]
+    },
+    {
+      "Route": "main-3JLHADOU.js",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1135,19 +1536,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "1405605"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:14:37 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1157,13 +1558,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI="
         }
       ]
     },
     {
-      "Route": "uploads/0dd5dd51-2275-4c21-b4f8-8b7ea3df92b3_1742732287306.3usgl8q85x.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\0dd5dd51-2275-4c21-b4f8-8b7ea3df92b3_1742732287306.jpg",
+      "Route": "main-3JLHADOU.js.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1172,19 +1573,127 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30882"
+          "Value": "360851"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=\""
+          "Value": "\"OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:43:47 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI="
+        }
+      ]
+    },
+    {
+      "Route": "polyfills-FFHMD2TL.39tegmrjtp.js",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000079636856"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12556"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wNJFFxSczIGO97svjP9ishXOSHGLv5Y4VbZ5Mb0PkLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "39tegmrjtp"
+        },
+        {
+          "Name": "label",
+          "Value": "polyfills-FFHMD2TL.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g="
+        }
+      ]
+    },
+    {
+      "Route": "polyfills-FFHMD2TL.39tegmrjtp.js",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1194,21 +1703,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3usgl8q85x"
+          "Value": "39tegmrjtp"
         },
         {
           "Name": "label",
-          "Value": "uploads/0dd5dd51-2275-4c21-b4f8-8b7ea3df92b3_1742732287306.jpg"
+          "Value": "polyfills-FFHMD2TL.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM="
+          "Value": "sha256-adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g="
         }
       ]
     },
     {
-      "Route": "uploads/0dd5dd51-2275-4c21-b4f8-8b7ea3df92b3_1742732287306.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\0dd5dd51-2275-4c21-b4f8-8b7ea3df92b3_1742732287306.jpg",
+      "Route": "polyfills-FFHMD2TL.39tegmrjtp.js.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1217,80 +1726,106 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30882"
+          "Value": "12556"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=\""
+          "Value": "\"wNJFFxSczIGO97svjP9ishXOSHGLv5Y4VbZ5Mb0PkLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:43:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/2368e7cc-a13a-4a8d-8d1f-c9fc0907845d_New DOCX Document.5ipweew5fc.docx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\2368e7cc-a13a-4a8d-8d1f-c9fc0907845d_New DOCX Document.docx",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:14:45 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "39tegmrjtp"
         },
         {
           "Name": "label",
-          "Value": "uploads/2368e7cc-a13a-4a8d-8d1f-c9fc0907845d_New DOCX Document.docx"
+          "Value": "polyfills-FFHMD2TL.js.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-wNJFFxSczIGO97svjP9ishXOSHGLv5Y4VbZ5Mb0PkLw="
         }
       ]
     },
     {
-      "Route": "uploads/2368e7cc-a13a-4a8d-8d1f-c9fc0907845d_New DOCX Document.docx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\2368e7cc-a13a-4a8d-8d1f-c9fc0907845d_New DOCX Document.docx",
+      "Route": "polyfills-FFHMD2TL.js",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000079636856"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12556"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wNJFFxSczIGO97svjP9ishXOSHGLv5Y4VbZ5Mb0PkLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g="
+        }
+      ]
+    },
+    {
+      "Route": "polyfills-FFHMD2TL.js",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1299,19 +1834,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "34519"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:14:45 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1321,13 +1856,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g="
         }
       ]
     },
     {
-      "Route": "uploads/2bacab8d-c678-4b19-aa26-6fa5d258b859_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\2bacab8d-c678-4b19-aa26-6fa5d258b859_CV Asilbek Khujanazarov 2025 Feb.pdf",
+      "Route": "polyfills-FFHMD2TL.js.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1336,19 +1871,119 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "192685"
+          "Value": "12556"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/pdf"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
+          "Value": "\"wNJFFxSczIGO97svjP9ishXOSHGLv5Y4VbZ5Mb0PkLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:00:19 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wNJFFxSczIGO97svjP9ishXOSHGLv5Y4VbZ5Mb0PkLw="
+        }
+      ]
+    },
+    {
+      "Route": "prerendered-routes.json",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.025641025641"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o1VjVQwEDpUxfB4dvCKgJktgYa0JihcBq69Qd6fuU3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"p53cyKEVGQ6cGUee02kUdBp9HbdPChFTUp78gHJVBf4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p53cyKEVGQ6cGUee02kUdBp9HbdPChFTUp78gHJVBf4="
+        }
+      ]
+    },
+    {
+      "Route": "prerendered-routes.json",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p53cyKEVGQ6cGUee02kUdBp9HbdPChFTUp78gHJVBf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1358,13 +1993,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
+          "Value": "sha256-p53cyKEVGQ6cGUee02kUdBp9HbdPChFTUp78gHJVBf4="
         }
       ]
     },
     {
-      "Route": "uploads/2bacab8d-c678-4b19-aa26-6fa5d258b859_CV Asilbek Khujanazarov 2025 Feb.qv450tqjuh.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\2bacab8d-c678-4b19-aa26-6fa5d258b859_CV Asilbek Khujanazarov 2025 Feb.pdf",
+      "Route": "prerendered-routes.json.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1373,19 +2008,127 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "192685"
+          "Value": "38"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/pdf"
+          "Value": "application/json"
         },
         {
           "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
+          "Value": "\"o1VjVQwEDpUxfB4dvCKgJktgYa0JihcBq69Qd6fuU3I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:00:19 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o1VjVQwEDpUxfB4dvCKgJktgYa0JihcBq69Qd6fuU3I="
+        }
+      ]
+    },
+    {
+      "Route": "prerendered-routes.tvy3j3n584.json",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.025641025641"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o1VjVQwEDpUxfB4dvCKgJktgYa0JihcBq69Qd6fuU3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"p53cyKEVGQ6cGUee02kUdBp9HbdPChFTUp78gHJVBf4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tvy3j3n584"
+        },
+        {
+          "Name": "label",
+          "Value": "prerendered-routes.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p53cyKEVGQ6cGUee02kUdBp9HbdPChFTUp78gHJVBf4="
+        }
+      ]
+    },
+    {
+      "Route": "prerendered-routes.tvy3j3n584.json",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p53cyKEVGQ6cGUee02kUdBp9HbdPChFTUp78gHJVBf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1395,21 +2138,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qv450tqjuh"
+          "Value": "tvy3j3n584"
         },
         {
           "Name": "label",
-          "Value": "uploads/2bacab8d-c678-4b19-aa26-6fa5d258b859_CV Asilbek Khujanazarov 2025 Feb.pdf"
+          "Value": "prerendered-routes.json"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
+          "Value": "sha256-p53cyKEVGQ6cGUee02kUdBp9HbdPChFTUp78gHJVBf4="
         }
       ]
     },
     {
-      "Route": "uploads/2dfb961a-db75-49dc-92bb-7f0adb2c2659_istockphoto-173242750-612x612.cu0kpwxl44.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\2dfb961a-db75-49dc-92bb-7f0adb2c2659_istockphoto-173242750-612x612.jpg",
+      "Route": "prerendered-routes.tvy3j3n584.json.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1418,44 +2161,58 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23342"
+          "Value": "38"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "application/json"
         },
         {
           "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
+          "Value": "\"o1VjVQwEDpUxfB4dvCKgJktgYa0JihcBq69Qd6fuU3I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:45:30 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cu0kpwxl44"
+          "Value": "tvy3j3n584"
         },
         {
           "Name": "label",
-          "Value": "uploads/2dfb961a-db75-49dc-92bb-7f0adb2c2659_istockphoto-173242750-612x612.jpg"
+          "Value": "prerendered-routes.json.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
+          "Value": "sha256-o1VjVQwEDpUxfB4dvCKgJktgYa0JihcBq69Qd6fuU3I="
         }
       ]
     },
     {
-      "Route": "uploads/2dfb961a-db75-49dc-92bb-7f0adb2c2659_istockphoto-173242750-612x612.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\2dfb961a-db75-49dc-92bb-7f0adb2c2659_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
+      "Route": "styles-APQXLMEW.css",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000707714084"
+        }
+      ],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
@@ -1463,35 +2220,47 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "1412"
         },
         {
           "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
+          "Value": "\"wViez1CukA2HysHRw6bbwe5s3rspbv0syccuEY/Rr5g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:45:30 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1TZvm/k0xNgMXWaBYdbEHmNVe09jrFKVH2Mpk7yiRzw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
+          "Value": "sha256-1TZvm/k0xNgMXWaBYdbEHmNVe09jrFKVH2Mpk7yiRzw="
         }
       ]
     },
     {
-      "Route": "uploads/33d0a5a5-bd25-434a-b34d-7061ed5b4553_New DOCX Document.5ipweew5fc.docx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\33d0a5a5-bd25-434a-b34d-7061ed5b4553_New DOCX Document.docx",
+      "Route": "styles-APQXLMEW.css",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1500,64 +2269,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "7083"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"1TZvm/k0xNgMXWaBYdbEHmNVe09jrFKVH2Mpk7yiRzw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:14:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5ipweew5fc"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/33d0a5a5-bd25-434a-b34d-7061ed5b4553_New DOCX Document.docx"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/33d0a5a5-bd25-434a-b34d-7061ed5b4553_New DOCX Document.docx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\33d0a5a5-bd25-434a-b34d-7061ed5b4553_New DOCX Document.docx",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:14:45 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1567,13 +2291,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-1TZvm/k0xNgMXWaBYdbEHmNVe09jrFKVH2Mpk7yiRzw="
         }
       ]
     },
     {
-      "Route": "uploads/40a5d674-5ef9-4d44-a1b6-97e052bb2593_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\40a5d674-5ef9-4d44-a1b6-97e052bb2593_CV Asilbek Khujanazarov 2025 Feb.pdf",
+      "Route": "styles-APQXLMEW.css.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1582,35 +2306,106 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "192685"
+          "Value": "1412"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/pdf"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
+          "Value": "\"wViez1CukA2HysHRw6bbwe5s3rspbv0syccuEY/Rr5g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 18:17:41 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
+          "Value": "sha256-wViez1CukA2HysHRw6bbwe5s3rspbv0syccuEY/Rr5g="
         }
       ]
     },
     {
-      "Route": "uploads/40a5d674-5ef9-4d44-a1b6-97e052bb2593_CV Asilbek Khujanazarov 2025 Feb.qv450tqjuh.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\40a5d674-5ef9-4d44-a1b6-97e052bb2593_CV Asilbek Khujanazarov 2025 Feb.pdf",
+      "Route": "styles-APQXLMEW.dmn5ggifut.css",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000707714084"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1412"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wViez1CukA2HysHRw6bbwe5s3rspbv0syccuEY/Rr5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1TZvm/k0xNgMXWaBYdbEHmNVe09jrFKVH2Mpk7yiRzw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dmn5ggifut"
+        },
+        {
+          "Name": "label",
+          "Value": "styles-APQXLMEW.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1TZvm/k0xNgMXWaBYdbEHmNVe09jrFKVH2Mpk7yiRzw="
+        }
+      ]
+    },
+    {
+      "Route": "styles-APQXLMEW.dmn5ggifut.css",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1619,19 +2414,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "192685"
+          "Value": "7083"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/pdf"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
+          "Value": "\"1TZvm/k0xNgMXWaBYdbEHmNVe09jrFKVH2Mpk7yiRzw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 18:17:41 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1641,21 +2436,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qv450tqjuh"
+          "Value": "dmn5ggifut"
         },
         {
           "Name": "label",
-          "Value": "uploads/40a5d674-5ef9-4d44-a1b6-97e052bb2593_CV Asilbek Khujanazarov 2025 Feb.pdf"
+          "Value": "styles-APQXLMEW.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
+          "Value": "sha256-1TZvm/k0xNgMXWaBYdbEHmNVe09jrFKVH2Mpk7yiRzw="
         }
       ]
     },
     {
-      "Route": "uploads/4b9b3ebc-b10c-4875-a27e-72afdc4ab26f_istockphoto-173242750-612x612.cu0kpwxl44.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\4b9b3ebc-b10c-4875-a27e-72afdc4ab26f_istockphoto-173242750-612x612.jpg",
+      "Route": "styles-APQXLMEW.dmn5ggifut.css.gz",
+      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1664,1550 +2459,45 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23342"
+          "Value": "1412"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
+          "Value": "\"wViez1CukA2HysHRw6bbwe5s3rspbv0syccuEY/Rr5g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 12:00:51 GMT"
+          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cu0kpwxl44"
+          "Value": "dmn5ggifut"
         },
         {
           "Name": "label",
-          "Value": "uploads/4b9b3ebc-b10c-4875-a27e-72afdc4ab26f_istockphoto-173242750-612x612.jpg"
+          "Value": "styles-APQXLMEW.css.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/4b9b3ebc-b10c-4875-a27e-72afdc4ab26f_istockphoto-173242750-612x612.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\4b9b3ebc-b10c-4875-a27e-72afdc4ab26f_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 12:00:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/4c5dbf59-440b-4947-a2df-29bf6fc50b01_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\4c5dbf59-440b-4947-a2df-29bf6fc50b01_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:14:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/4c5dbf59-440b-4947-a2df-29bf6fc50b01_CV Asilbek Khujanazarov 2025 Feb.qv450tqjuh.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\4c5dbf59-440b-4947-a2df-29bf6fc50b01_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:14:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qv450tqjuh"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/4c5dbf59-440b-4947-a2df-29bf6fc50b01_CV Asilbek Khujanazarov 2025 Feb.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/56f72bd0-3a49-47d2-a30c-c95ce98a1059_istockphoto-173242750-612x612.cu0kpwxl44.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\56f72bd0-3a49-47d2-a30c-c95ce98a1059_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:45:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cu0kpwxl44"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/56f72bd0-3a49-47d2-a30c-c95ce98a1059_istockphoto-173242750-612x612.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/56f72bd0-3a49-47d2-a30c-c95ce98a1059_istockphoto-173242750-612x612.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\56f72bd0-3a49-47d2-a30c-c95ce98a1059_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:45:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/5d00c7e9-b410-432a-a5c2-529d5299be5e_CV Asilbek Khujanazarov.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\5d00c7e9-b410-432a-a5c2-529d5299be5e_CV Asilbek Khujanazarov.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "97936"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:14:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/5d00c7e9-b410-432a-a5c2-529d5299be5e_CV Asilbek Khujanazarov.vfliyhkk1n.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\5d00c7e9-b410-432a-a5c2-529d5299be5e_CV Asilbek Khujanazarov.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "97936"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:14:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vfliyhkk1n"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/5d00c7e9-b410-432a-a5c2-529d5299be5e_CV Asilbek Khujanazarov.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/69c3b65c-145a-4852-9933-8f81debb1dc8_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\69c3b65c-145a-4852-9933-8f81debb1dc8_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:14:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/69c3b65c-145a-4852-9933-8f81debb1dc8_CV Asilbek Khujanazarov 2025 Feb.qv450tqjuh.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\69c3b65c-145a-4852-9933-8f81debb1dc8_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:14:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qv450tqjuh"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/69c3b65c-145a-4852-9933-8f81debb1dc8_CV Asilbek Khujanazarov 2025 Feb.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/7e1615c6-4cfc-407f-82b8-3c633d9bdc00_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\7e1615c6-4cfc-407f-82b8-3c633d9bdc00_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:14:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/7e1615c6-4cfc-407f-82b8-3c633d9bdc00_CV Asilbek Khujanazarov 2025 Feb.qv450tqjuh.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\7e1615c6-4cfc-407f-82b8-3c633d9bdc00_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:14:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qv450tqjuh"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/7e1615c6-4cfc-407f-82b8-3c633d9bdc00_CV Asilbek Khujanazarov 2025 Feb.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/7e9f3533-cfa0-48e9-97aa-725e1d040f74_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\7e9f3533-cfa0-48e9-97aa-725e1d040f74_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 06:17:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/7e9f3533-cfa0-48e9-97aa-725e1d040f74_CV Asilbek Khujanazarov 2025 Feb.qv450tqjuh.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\7e9f3533-cfa0-48e9-97aa-725e1d040f74_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 06:17:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qv450tqjuh"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/7e9f3533-cfa0-48e9-97aa-725e1d040f74_CV Asilbek Khujanazarov 2025 Feb.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/8094e312-acab-4a91-a41e-591f998297c4_istockphoto-173242750-612x612.cu0kpwxl44.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\8094e312-acab-4a91-a41e-591f998297c4_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:43:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cu0kpwxl44"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/8094e312-acab-4a91-a41e-591f998297c4_istockphoto-173242750-612x612.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/8094e312-acab-4a91-a41e-591f998297c4_istockphoto-173242750-612x612.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\8094e312-acab-4a91-a41e-591f998297c4_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:43:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/99cb4ac8-a79f-4788-a80b-e82d8380e596_New PPTX Presentation.fkwolvtn0l.pptx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\99cb4ac8-a79f-4788-a80b-e82d8380e596_New PPTX Presentation.pptx",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "29171"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"31vWBVBls5Z/95hFPlVmUeM0iKOJizZYnhyyW71v3WQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:45:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fkwolvtn0l"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/99cb4ac8-a79f-4788-a80b-e82d8380e596_New PPTX Presentation.pptx"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-31vWBVBls5Z/95hFPlVmUeM0iKOJizZYnhyyW71v3WQ="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/99cb4ac8-a79f-4788-a80b-e82d8380e596_New PPTX Presentation.pptx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\99cb4ac8-a79f-4788-a80b-e82d8380e596_New PPTX Presentation.pptx",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "29171"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"31vWBVBls5Z/95hFPlVmUeM0iKOJizZYnhyyW71v3WQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:45:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-31vWBVBls5Z/95hFPlVmUeM0iKOJizZYnhyyW71v3WQ="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/9e12f43f-86a5-4a6f-a48a-fd54e0a633de_istockphoto-173242750-612x612.cu0kpwxl44.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\9e12f43f-86a5-4a6f-a48a-fd54e0a633de_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:44:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cu0kpwxl44"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/9e12f43f-86a5-4a6f-a48a-fd54e0a633de_istockphoto-173242750-612x612.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/9e12f43f-86a5-4a6f-a48a-fd54e0a633de_istockphoto-173242750-612x612.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\9e12f43f-86a5-4a6f-a48a-fd54e0a633de_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:44:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/a2c66c2f-6f79-43de-bc4a-99f7a042f030_New DOCX Document.5ipweew5fc.docx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\a2c66c2f-6f79-43de-bc4a-99f7a042f030_New DOCX Document.docx",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:14:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5ipweew5fc"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/a2c66c2f-6f79-43de-bc4a-99f7a042f030_New DOCX Document.docx"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/a2c66c2f-6f79-43de-bc4a-99f7a042f030_New DOCX Document.docx",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\a2c66c2f-6f79-43de-bc4a-99f7a042f030_New DOCX Document.docx",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:14:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/a5e37eaa-17db-4abc-a621-b5238e318020_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\a5e37eaa-17db-4abc-a621-b5238e318020_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:14:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/a5e37eaa-17db-4abc-a621-b5238e318020_CV Asilbek Khujanazarov 2025 Feb.qv450tqjuh.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\a5e37eaa-17db-4abc-a621-b5238e318020_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 16:14:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qv450tqjuh"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/a5e37eaa-17db-4abc-a621-b5238e318020_CV Asilbek Khujanazarov 2025 Feb.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/b05d3ff5-af47-4360-adc4-5503148c18f7_CV Asilbek Khujanazarov.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\b05d3ff5-af47-4360-adc4-5503148c18f7_CV Asilbek Khujanazarov.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "97936"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 06:17:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/b05d3ff5-af47-4360-adc4-5503148c18f7_CV Asilbek Khujanazarov.vfliyhkk1n.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\b05d3ff5-af47-4360-adc4-5503148c18f7_CV Asilbek Khujanazarov.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "97936"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 06:17:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vfliyhkk1n"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/b05d3ff5-af47-4360-adc4-5503148c18f7_CV Asilbek Khujanazarov.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/ced94b0b-9f4a-4973-87fa-2c0517d123ee_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\ced94b0b-9f4a-4973-87fa-2c0517d123ee_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:14:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/ced94b0b-9f4a-4973-87fa-2c0517d123ee_CV Asilbek Khujanazarov 2025 Feb.qv450tqjuh.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\ced94b0b-9f4a-4973-87fa-2c0517d123ee_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:14:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qv450tqjuh"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/ced94b0b-9f4a-4973-87fa-2c0517d123ee_CV Asilbek Khujanazarov 2025 Feb.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/d7e85a9d-d3df-439e-8ef0-e6bbfc44ea28_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\d7e85a9d-d3df-439e-8ef0-e6bbfc44ea28_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 15:54:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/d7e85a9d-d3df-439e-8ef0-e6bbfc44ea28_CV Asilbek Khujanazarov 2025 Feb.qv450tqjuh.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\d7e85a9d-d3df-439e-8ef0-e6bbfc44ea28_CV Asilbek Khujanazarov 2025 Feb.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 15:54:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qv450tqjuh"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/d7e85a9d-d3df-439e-8ef0-e6bbfc44ea28_CV Asilbek Khujanazarov 2025 Feb.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CmSPXAQ3i+mW4mgxzLdK07y48cjOlJXuAZjVPWXHaGU="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/ed6abb02-be76-44ee-a287-8065bddfc128_CV Asilbek Khujanazarov.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\ed6abb02-be76-44ee-a287-8065bddfc128_CV Asilbek Khujanazarov.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "97936"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:44:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/ed6abb02-be76-44ee-a287-8065bddfc128_CV Asilbek Khujanazarov.vfliyhkk1n.pdf",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\ed6abb02-be76-44ee-a287-8065bddfc128_CV Asilbek Khujanazarov.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "97936"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:44:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vfliyhkk1n"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/ed6abb02-be76-44ee-a287-8065bddfc128_CV Asilbek Khujanazarov.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-C8OQvY2emX4tbm0HG/L2qHbGexJRUeOd4llNSWulX24="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/edf76ae3-f42b-48ce-8954-bebe14d53f02_bunch-bananas-isolated-on-white-600nw-1722111529.mf96mv6czl.webp",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\edf76ae3-f42b-48ce-8954-bebe14d53f02_bunch-bananas-isolated-on-white-600nw-1722111529.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15202"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vnhhvsJJp2aIc0qwf6ipvV7zyBKR8J92K3DSOyvXl/0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 10:12:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mf96mv6czl"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/edf76ae3-f42b-48ce-8954-bebe14d53f02_bunch-bananas-isolated-on-white-600nw-1722111529.webp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vnhhvsJJp2aIc0qwf6ipvV7zyBKR8J92K3DSOyvXl/0="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/edf76ae3-f42b-48ce-8954-bebe14d53f02_bunch-bananas-isolated-on-white-600nw-1722111529.webp",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\edf76ae3-f42b-48ce-8954-bebe14d53f02_bunch-bananas-isolated-on-white-600nw-1722111529.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15202"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vnhhvsJJp2aIc0qwf6ipvV7zyBKR8J92K3DSOyvXl/0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 10:12:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vnhhvsJJp2aIc0qwf6ipvV7zyBKR8J92K3DSOyvXl/0="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/f26adf2e-4450-4529-9cd2-4b7dec3f7709_istockphoto-173242750-612x612.cu0kpwxl44.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\f26adf2e-4450-4529-9cd2-4b7dec3f7709_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:46:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cu0kpwxl44"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/f26adf2e-4450-4529-9cd2-4b7dec3f7709_istockphoto-173242750-612x612.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/f26adf2e-4450-4529-9cd2-4b7dec3f7709_istockphoto-173242750-612x612.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\f26adf2e-4450-4529-9cd2-4b7dec3f7709_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:46:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/f92360ed-c693-435c-a801-79c24154f8a0_istockphoto-173242750-612x612.cu0kpwxl44.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\f92360ed-c693-435c-a801-79c24154f8a0_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:45:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cu0kpwxl44"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/f92360ed-c693-435c-a801-79c24154f8a0_istockphoto-173242750-612x612.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/f92360ed-c693-435c-a801-79c24154f8a0_istockphoto-173242750-612x612.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\uploads\\f92360ed-c693-435c-a801-79c24154f8a0_istockphoto-173242750-612x612.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 05 Apr 2025 14:45:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vDX8aZWNQojGDnWbdbdcMpufs9JMOwrqDzwnW56KQ6I="
+          "Value": "sha256-wViez1CukA2HysHRw6bbwe5s3rspbv0syccuEY/Rr5g="
         }
       ]
     }

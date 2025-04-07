@@ -56,7 +56,7 @@ namespace HRsystem.Controllers
 
         // POST: api/department (Bo‘lim qo‘shish, faqat Admin uchun)
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        // [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AddDepartment([FromBody] DepartmentDto dto)
         {
             if (!ModelState.IsValid)

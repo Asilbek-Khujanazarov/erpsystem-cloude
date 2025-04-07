@@ -109,8 +109,8 @@ app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
-app.UseStaticFiles();
 app.UseAuthorization();
+app.UseStaticFiles();
+app.MapFallbackToFile("index.html");
 app.MapControllers();
-
 app.Run();

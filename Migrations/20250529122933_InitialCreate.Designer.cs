@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HRsystem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250407104834_InitialCreate")]
+    [Migration("20250529122933_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -256,6 +256,34 @@ namespace HRsystem.Migrations
                     b.HasIndex("EmployeeId");
 
                     b.ToTable("Payrolls");
+                });
+
+            modelBuilder.Entity("HRsystem.Models.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("HRsystem.Models.WorkSchedule", b =>

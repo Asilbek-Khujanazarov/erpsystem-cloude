@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6SmQ73TjWPMPeCMZJuZ9QIl5T/gcoe2Hpe0I8Ad/ssM=",
+  "Hash": "tE0zKiJ20Feo5EsOe1HHe/uxONA2aZh39cU1h1i4SfM=",
   "Source": "HRsystem",
   "BasePath": "_content/HRsystem",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HRsystem\\wwwroot",
       "Source": "HRsystem",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "Identity": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "3rdpartylicenses#[.{fingerprint=fc59uvtef3}]?.txt.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "gyaiphazf8",
       "Integrity": "CPs0N/ns5nmaIsBazJZuZtAjiLBHLZw55rGl/W95Op4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "Identity": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "index#[.{fingerprint=3o7gjn6y7m}]?.html.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "mlnx1u895o",
       "Integrity": "uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "Identity": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "styles-APQXLMEW#[.{fingerprint=dmn5ggifut}]?.css.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "r14rm1qdvs",
       "Integrity": "wViez1CukA2HysHRw6bbwe5s3rspbv0syccuEY/Rr5g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "Identity": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "favicon#[.{fingerprint=vagikyz9qx}]?.ico.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\favicon.ico",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "spc2whqxhc",
       "Integrity": "4JD5TBkaKkYJVw5DzZh1jKJdCSTQYxpre7fdXrSQ/P8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "Identity": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "polyfills-FFHMD2TL#[.{fingerprint=39tegmrjtp}]?.js.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "w4lx0xupn9",
       "Integrity": "wNJFFxSczIGO97svjP9ishXOSHGLv5Y4VbZ5Mb0PkLw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
+      "Identity": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "main-3JLHADOU#[.{fingerprint=jhcnv9o1pj}]?.js.gz",
       "AssetKind": "All",
@@ -133,20 +133,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\main-3JLHADOU.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "v26gqc0tvn",
       "Integrity": "OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\main-3JLHADOU.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "Identity": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "prerendered-routes#[.{fingerprint=tvy3j3n584}]?.json.gz",
       "AssetKind": "All",
@@ -154,20 +154,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\prerendered-routes.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "flm15mbdxq",
       "Integrity": "o1VjVQwEDpUxfB4dvCKgJktgYa0JihcBq69Qd6fuU3I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\prerendered-routes.json"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "Identity": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "3rdpartylicenses#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\3rdpartylicenses.txt"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "Identity": "C:\\HRsystem\\wwwroot\\favicon.ico",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
+      "Identity": "C:\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "images/91911542-f6ee-4a39-b699-eb630a371c79#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,73 @@
       "OriginalItemSpec": "wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
+      "Identity": "C:\\HRsystem\\wwwroot\\images\\b9d6a311-7c97-43ee-8544-c3b42c55dee9.jpg",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "images/b9d6a311-7c97-43ee-8544-c3b42c55dee9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eawxl3e44t",
+      "Integrity": "St0JoHR35MWKXYAre3Y6CpziXuruEy85k2C2xHHXcss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\b9d6a311-7c97-43ee-8544-c3b42c55dee9.jpg"
+    },
+    {
+      "Identity": "C:\\HRsystem\\wwwroot\\images\\d98b3017-b477-4e74-895d-3013fa61244b.jpg",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "images/d98b3017-b477-4e74-895d-3013fa61244b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xkcnqenj94",
+      "Integrity": "cSFyt51agSYQfyA3eAYB5aiiWIDSq1hPdIKs93Euol0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d98b3017-b477-4e74-895d-3013fa61244b.jpg"
+    },
+    {
+      "Identity": "C:\\HRsystem\\wwwroot\\images\\fd90fc59-db9a-4db6-a570-b3909f20aad9.jpg",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "images/fd90fc59-db9a-4db6-a570-b3909f20aad9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eawxl3e44t",
+      "Integrity": "St0JoHR35MWKXYAre3Y6CpziXuruEy85k2C2xHHXcss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fd90fc59-db9a-4db6-a570-b3909f20aad9.jpg"
+    },
+    {
+      "Identity": "C:\\HRsystem\\wwwroot\\index.html",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -248,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
+      "Identity": "C:\\HRsystem\\wwwroot\\main-3JLHADOU.js",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "main-3JLHADOU#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -269,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\main-3JLHADOU.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "Identity": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "polyfills-FFHMD2TL#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -290,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\polyfills-FFHMD2TL.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "Identity": "C:\\HRsystem\\wwwroot\\prerendered-routes.json",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "prerendered-routes#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -311,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\prerendered-routes.json"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
+      "Identity": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "styles-APQXLMEW#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -335,7 +398,7 @@
   "Endpoints": [
     {
       "Route": "3rdpartylicenses.fc59uvtef3.txt",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -398,7 +461,7 @@
     },
     {
       "Route": "3rdpartylicenses.fc59uvtef3.txt",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -443,7 +506,7 @@
     },
     {
       "Route": "3rdpartylicenses.fc59uvtef3.txt.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -496,7 +559,7 @@
     },
     {
       "Route": "3rdpartylicenses.txt",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -551,7 +614,7 @@
     },
     {
       "Route": "3rdpartylicenses.txt",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -588,7 +651,7 @@
     },
     {
       "Route": "3rdpartylicenses.txt.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -633,7 +696,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -688,7 +751,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -725,7 +788,7 @@
     },
     {
       "Route": "favicon.ico.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -770,7 +833,7 @@
     },
     {
       "Route": "favicon.vagikyz9qx.ico",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -833,7 +896,7 @@
     },
     {
       "Route": "favicon.vagikyz9qx.ico",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -878,7 +941,7 @@
     },
     {
       "Route": "favicon.vagikyz9qx.ico.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -931,7 +994,7 @@
     },
     {
       "Route": "images/91911542-f6ee-4a39-b699-eb630a371c79.3usgl8q85x.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -976,7 +1039,7 @@
     },
     {
       "Route": "images/91911542-f6ee-4a39-b699-eb630a371c79.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1012,8 +1075,254 @@
       ]
     },
     {
+      "Route": "images/b9d6a311-7c97-43ee-8544-c3b42c55dee9.eawxl3e44t.jpg",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\images\\b9d6a311-7c97-43ee-8544-c3b42c55dee9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"St0JoHR35MWKXYAre3Y6CpziXuruEy85k2C2xHHXcss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 16:41:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eawxl3e44t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/b9d6a311-7c97-43ee-8544-c3b42c55dee9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-St0JoHR35MWKXYAre3Y6CpziXuruEy85k2C2xHHXcss="
+        }
+      ]
+    },
+    {
+      "Route": "images/b9d6a311-7c97-43ee-8544-c3b42c55dee9.jpg",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\images\\b9d6a311-7c97-43ee-8544-c3b42c55dee9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"St0JoHR35MWKXYAre3Y6CpziXuruEy85k2C2xHHXcss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 16:41:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-St0JoHR35MWKXYAre3Y6CpziXuruEy85k2C2xHHXcss="
+        }
+      ]
+    },
+    {
+      "Route": "images/d98b3017-b477-4e74-895d-3013fa61244b.jpg",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\images\\d98b3017-b477-4e74-895d-3013fa61244b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58759"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cSFyt51agSYQfyA3eAYB5aiiWIDSq1hPdIKs93Euol0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 17:32:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cSFyt51agSYQfyA3eAYB5aiiWIDSq1hPdIKs93Euol0="
+        }
+      ]
+    },
+    {
+      "Route": "images/d98b3017-b477-4e74-895d-3013fa61244b.xkcnqenj94.jpg",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\images\\d98b3017-b477-4e74-895d-3013fa61244b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58759"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cSFyt51agSYQfyA3eAYB5aiiWIDSq1hPdIKs93Euol0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 17:32:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xkcnqenj94"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d98b3017-b477-4e74-895d-3013fa61244b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cSFyt51agSYQfyA3eAYB5aiiWIDSq1hPdIKs93Euol0="
+        }
+      ]
+    },
+    {
+      "Route": "images/fd90fc59-db9a-4db6-a570-b3909f20aad9.eawxl3e44t.jpg",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\images\\fd90fc59-db9a-4db6-a570-b3909f20aad9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"St0JoHR35MWKXYAre3Y6CpziXuruEy85k2C2xHHXcss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 12:32:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eawxl3e44t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/fd90fc59-db9a-4db6-a570-b3909f20aad9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-St0JoHR35MWKXYAre3Y6CpziXuruEy85k2C2xHHXcss="
+        }
+      ]
+    },
+    {
+      "Route": "images/fd90fc59-db9a-4db6-a570-b3909f20aad9.jpg",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\images\\fd90fc59-db9a-4db6-a570-b3909f20aad9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"St0JoHR35MWKXYAre3Y6CpziXuruEy85k2C2xHHXcss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 12:32:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-St0JoHR35MWKXYAre3Y6CpziXuruEy85k2C2xHHXcss="
+        }
+      ]
+    },
+    {
       "Route": "index.3o7gjn6y7m.html",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1076,7 +1385,7 @@
     },
     {
       "Route": "index.3o7gjn6y7m.html",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1121,7 +1430,7 @@
     },
     {
       "Route": "index.3o7gjn6y7m.html.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1174,7 +1483,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1229,7 +1538,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1266,7 +1575,7 @@
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1311,7 +1620,7 @@
     },
     {
       "Route": "main-3JLHADOU.jhcnv9o1pj.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1374,7 +1683,7 @@
     },
     {
       "Route": "main-3JLHADOU.jhcnv9o1pj.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\main-3JLHADOU.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1419,7 +1728,7 @@
     },
     {
       "Route": "main-3JLHADOU.jhcnv9o1pj.js.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1472,7 +1781,7 @@
     },
     {
       "Route": "main-3JLHADOU.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1527,7 +1836,7 @@
     },
     {
       "Route": "main-3JLHADOU.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\main-3JLHADOU.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1564,7 +1873,7 @@
     },
     {
       "Route": "main-3JLHADOU.js.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1609,7 +1918,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.39tegmrjtp.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1672,7 +1981,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.39tegmrjtp.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1717,7 +2026,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.39tegmrjtp.js.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1770,7 +2079,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1825,7 +2134,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1862,7 +2171,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.js.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1907,7 +2216,7 @@
     },
     {
       "Route": "prerendered-routes.json",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1962,7 +2271,7 @@
     },
     {
       "Route": "prerendered-routes.json",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\prerendered-routes.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1999,7 +2308,7 @@
     },
     {
       "Route": "prerendered-routes.json.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2044,7 +2353,7 @@
     },
     {
       "Route": "prerendered-routes.tvy3j3n584.json",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2107,7 +2416,7 @@
     },
     {
       "Route": "prerendered-routes.tvy3j3n584.json",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\prerendered-routes.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2152,7 +2461,7 @@
     },
     {
       "Route": "prerendered-routes.tvy3j3n584.json.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2205,7 +2514,7 @@
     },
     {
       "Route": "styles-APQXLMEW.css",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2260,7 +2569,7 @@
     },
     {
       "Route": "styles-APQXLMEW.css",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2297,7 +2606,7 @@
     },
     {
       "Route": "styles-APQXLMEW.css.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2342,7 +2651,7 @@
     },
     {
       "Route": "styles-APQXLMEW.dmn5ggifut.css",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2405,7 +2714,7 @@
     },
     {
       "Route": "styles-APQXLMEW.dmn5ggifut.css",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2450,7 +2759,7 @@
     },
     {
       "Route": "styles-APQXLMEW.dmn5ggifut.css.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Debug\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

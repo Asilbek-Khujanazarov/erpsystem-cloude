@@ -1,35 +1,47 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "Id": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
     },
     {
-      "Id": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "Id": "C:\\HRsystem\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
+      "Id": "C:\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
       "PackagePath": "staticwebassets\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg"
     },
     {
-      "Id": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
+      "Id": "C:\\HRsystem\\wwwroot\\images\\b9d6a311-7c97-43ee-8544-c3b42c55dee9.jpg",
+      "PackagePath": "staticwebassets\\images\\b9d6a311-7c97-43ee-8544-c3b42c55dee9.jpg"
+    },
+    {
+      "Id": "C:\\HRsystem\\wwwroot\\images\\d98b3017-b477-4e74-895d-3013fa61244b.jpg",
+      "PackagePath": "staticwebassets\\images\\d98b3017-b477-4e74-895d-3013fa61244b.jpg"
+    },
+    {
+      "Id": "C:\\HRsystem\\wwwroot\\images\\fd90fc59-db9a-4db6-a570-b3909f20aad9.jpg",
+      "PackagePath": "staticwebassets\\images\\fd90fc59-db9a-4db6-a570-b3909f20aad9.jpg"
+    },
+    {
+      "Id": "C:\\HRsystem\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
+      "Id": "C:\\HRsystem\\wwwroot\\main-3JLHADOU.js",
       "PackagePath": "staticwebassets\\main-3JLHADOU.js"
     },
     {
-      "Id": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "Id": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "PackagePath": "staticwebassets\\polyfills-FFHMD2TL.js"
     },
     {
-      "Id": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "Id": "C:\\HRsystem\\wwwroot\\prerendered-routes.json",
       "PackagePath": "staticwebassets\\prerendered-routes.json"
     },
     {
-      "Id": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
+      "Id": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "PackagePath": "staticwebassets\\styles-APQXLMEW.css"
     },
     {

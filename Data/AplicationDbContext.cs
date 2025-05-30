@@ -17,6 +17,7 @@ namespace HRsystem.Data
         public DbSet<WorkSchedule> WorkSchedules { get; set; }
         public DbSet<JobApplication> JobApplications { get; set; }
         public DbSet<JobApplicationFile> JobApplicationFiles { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         // Model munosabatlari va konfiguratsiyalarni sozlash
         protected override void OnModelCreating(ModelBuilder modelBuilder)

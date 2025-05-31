@@ -660,5 +660,5 @@ C:\HRsystem\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildH
 C:\HRsystem\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\HRsystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\HRsystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\HRsystem\obj\Debug\net9.0\compressed\8821kpgtbw-uxi8f17trh.gz
-C:\HRsystem\obj\Debug\net9.0\compressed\5jh40mwmjh-bckg5n69fi.gz
+C:\HRsystem\obj\Debug\net9.0\compressed\8821kpgtbw-6wpz31bhnz.gz
+C:\HRsystem\obj\Debug\net9.0\compressed\iwon39qp3c-j4e9xgmb3r.gz

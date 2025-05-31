@@ -13,30 +13,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Kodni repozitoriyadan olish
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2. .NET SDK sozlash
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '9.0.x'
 
-      # 3. .NET loyihasini restore qilish
       - name: Restore .NET dependencies
         run: dotnet restore
 
-      # 4. .NET loyihasini build qilish
       - name: Build .NET
         run: dotnet build --configuration Release --no-restore
 
-      # 5. .NET testlarini ishga tushirish (agar testlar bo‘lsa)
       - name: Run .NET tests
         run: dotnet test --no-build --verbosity normal
-        continue-on-error: true # Testlar muvaffaqiyatsiz bo‘lsa ham davom etish uchun
+        continue-on-error: true
 
-      # 6. Heroku’ga deploy qilish
+      # ✅ Heroku CLI ni o‘rnatish
+      - name: Install Heroku CLI
+        run: |
+          curl https://cli-assets.heroku.com/install.sh | sh
+          export PATH="$PATH:/usr/local/bin"
+
+      # ✅ Deploy qilish
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.13.15
         with:
@@ -45,15 +46,9 @@ jobs:
           heroku_email: "asilbekpersonal@gmail.com"
           usedocker: false
 
-      # 7. Ma'lumotlar bazasi migratsiyalarini qo‘llash
+      # ✅ Ma’lumotlar bazasiga migration qilish
       - name: Run database migrations
         run: |
           heroku run dotnet ef database update --app ${{ secrets.HEROKU_APP_NAME }}
         env:
-          ConnectionStrings__DefaultConnection: ${{ secrets.DB_CONNECTION_STRING }}
-      # 8Heroku CLI ni o'rnatish
-    
-      - name: Install Heroku CLI
-        run: |
-          curl https://cli-assets.heroku.com/install.sh | sh
-
+          ConnectionStrings__DefaultConnection: ${{ secrets.DEFAULT_CONNECTION }}

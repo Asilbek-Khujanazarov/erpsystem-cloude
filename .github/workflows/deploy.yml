@@ -40,15 +40,19 @@ jobs:
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.13.15
         with:
-          heroku_api_key: ${{ secrets.HRKU-AAXMuraW6lLA01UZz-rF0mukMnCdmlRiWo6sSlJ-Iyyg_____w35-9IcDFP0 }}
-          heroku_app_name: ${{ secrets.erpsystem-asilbek }}
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
           heroku_email: "asilbekpersonal@gmail.com"
           usedocker: false
 
       # 7. Ma'lumotlar bazasi migratsiyalarini qo‘llash
       - name: Run database migrations
         run: |
-          heroku run dotnet ef database update --app ${{ secrets.erpsystem-asilbek }}
+          heroku run dotnet ef database update --app ${{ secrets.HEROKU_APP_NAME }}
         env:
-          ConnectionStrings__DefaultConnection: ${{ secrets.Host=ep-weathered-hall-a6e50pjf-pooler.us-west-2.aws.neon.tech;Port=5432;Database=projectdb;Username=projectdb_owner;Password=npg_6SXg0xkvsEVr;SSL Mode=Require;Trust Server Certificate=true}}
+          ConnectionStrings__DefaultConnection: ${{ secrets.CONNECTION_STRING }}
 
+
+
+
+          

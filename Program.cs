@@ -20,7 +20,6 @@ builder.Services.AddCors(options =>
         builder =>
         {
             builder
-                // .WithOrigins("https://erpsystem-asilbek-f5513e7cc9be.herokuapp.com")
                 .AllowAnyOrigin() // Barcha manbalarga ruxsat
                 .AllowAnyMethod() // Barcha metodlarga (GET, POST, va hokazo) ruxsat
                 .AllowAnyHeader(); // Barcha header’larga ruxsat

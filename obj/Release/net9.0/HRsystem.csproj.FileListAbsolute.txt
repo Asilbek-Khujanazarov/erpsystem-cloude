@@ -298,8 +298,6 @@ C:\HRsystem\obj\Release\net9.0\HRsystem.sourcelink.json
 C:\HRsystem\obj\Release\net9.0\scopedcss\bundle\HRsystem.styles.css
 C:\HRsystem\obj\Release\net9.0\compressed\490bkzxtlp-fc59uvtef3.gz
 C:\HRsystem\obj\Release\net9.0\compressed\k2p9abrkrg-vagikyz9qx.gz
-C:\HRsystem\obj\Release\net9.0\compressed\8821kpgtbw-uxi8f17trh.gz
-C:\HRsystem\obj\Release\net9.0\compressed\5jh40mwmjh-bckg5n69fi.gz
 C:\HRsystem\obj\Release\net9.0\compressed\wtzbeph4il-39tegmrjtp.gz
 C:\HRsystem\obj\Release\net9.0\compressed\ztzwzlwkje-tvy3j3n584.gz
 C:\HRsystem\obj\Release\net9.0\compressed\hr6oghw0hy-dmn5ggifut.gz
@@ -318,3 +316,5 @@ C:\HRsystem\obj\Release\net9.0\refint\HRsystem.dll
 C:\HRsystem\obj\Release\net9.0\HRsystem.pdb
 C:\HRsystem\obj\Release\net9.0\HRsystem.genruntimeconfig.cache
 C:\HRsystem\obj\Release\net9.0\ref\HRsystem.dll
+C:\HRsystem\obj\Release\net9.0\compressed\8821kpgtbw-6wpz31bhnz.gz
+C:\HRsystem\obj\Release\net9.0\compressed\iwon39qp3c-j4e9xgmb3r.gz

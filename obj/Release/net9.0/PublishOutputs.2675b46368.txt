@@ -1,7 +1,6 @@
 C:\HRsystem\publish\HRsystem.exe
 C:\HRsystem\publish\appsettings.Development.json
 C:\HRsystem\publish\appsettings.json
-C:\HRsystem\publish\global.json
 C:\HRsystem\publish\package-lock.json
 C:\HRsystem\publish\package.json
 C:\HRsystem\publish\HRsystem.dll

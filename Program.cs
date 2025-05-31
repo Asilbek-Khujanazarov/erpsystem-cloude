@@ -30,6 +30,9 @@ builder.Services.AddCors(options =>
 // AutoMapper ni qo‘shish
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5190"; // Heroku uchun kerak
+builder.WebHost.UseUrls($"http://*:{port}");
+
 // Swagger/OpenAPI ni sozlash
 builder.Services.AddSwaggerGen(c =>
 {

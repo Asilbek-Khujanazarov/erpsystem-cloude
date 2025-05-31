@@ -50,5 +50,5 @@ jobs:
         run: |
           heroku run dotnet ef database update --app ${{ secrets.erpsystem-asilbek }}
         env:
-          ConnectionStrings__DefaultConnection: ${{ secrets.Host=ep-weathered-hall-a6e50pjf-pooler.us-west-2.aws.neon.tech;Port=5432;Database=projectdb;Username=projectdb_owner;Password=npg_6SXg0xkvsEVr;SSL Mode=Require;Trust Server Certificate=true;}}
+          ConnectionStrings__DefaultConnection: ${{ secrets.Host=ep-weathered-hall-a6e50pjf-pooler.us-west-2.aws.neon.tech;Port=5432;Database=projectdb;Username=projectdb_owner;Password=npg_6SXg0xkvsEVr;SSL Mode=Require;Trust Server Certificate=true}}
 

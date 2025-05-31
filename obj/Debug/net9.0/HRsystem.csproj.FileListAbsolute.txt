@@ -662,3 +662,4 @@ C:\HRsystem\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.B
 C:\HRsystem\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\HRsystem\obj\Debug\net9.0\compressed\8821kpgtbw-6wpz31bhnz.gz
 C:\HRsystem\obj\Debug\net9.0\compressed\iwon39qp3c-j4e9xgmb3r.gz
+C:\HRsystem\bin\Debug\net9.0\global.json

@@ -45,16 +45,3 @@ jobs:
           heroku_email: "asilbekpersonal@gmail.com"
           usedocker: false
           dontautocreate: true # Yangi ilova yaratishni oldini oladi
-
-      # 7. Heroku CLI o‘rnatish (migratsiyalar uchun)
-      - name: Install Heroku CLI
-        run: |
-          curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
-
-      # 8. Ma'lumotlar bazasi migratsiyalarini qo‘llash
-      - name: Run database migrations
-        run: |
-          heroku run dotnet ef database update --app ${{ secrets.HEROKU_APP_NAME }}
-        env:
-          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-          ConnectionStrings__DefaultConnection: ${{ secrets.CONNECTION_STRING }}

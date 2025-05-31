@@ -46,7 +46,7 @@ jobs:
           usedocker: false
 
       # 7. Ma'lumotlar bazasi migratsiyalarini qo‘llash
-      - name: Run dataxbase migrations
+      - name: Run database migrations
         run: |
           heroku run dotnet ef database update --app ${{ secrets.HEROKU_APP_NAME }}
         env:

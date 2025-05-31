@@ -52,7 +52,7 @@ jobs:
           curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
       # 8. Ma'lumotlar bazasi migratsiyalarini qo‘llash
-      - name: Run database migrations
+      - name: Run databsase migrations
         run: |
           heroku run dotnet ef database update --app ${{ secrets.HEROKU_APP_NAME }}
         env:

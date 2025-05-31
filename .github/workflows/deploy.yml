@@ -36,10 +36,13 @@ jobs:
         run: dotnet test --no-build --verbosity normal
         continue-on-error: true # Testlar muvaffaqiyatsiz bo‘lsa ham davom etish
 
-      # 6. Heroku’ga deploy qilish (Heroku rasmiy aksiyasi)
+      # 6. Heroku’ga deploy qilish
       - name: Deploy to Heroku
-        uses: heroku/heroku-deploy@v4
+        uses: akhileshns/heroku-deploy@v3.13.15
         with:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
           heroku_email: "asilbekpersonal@gmail.com"
+          usedocker: false
+          dontautocreate: true # Yangi ilova yaratishni oldini oladi
+          dontuseforce: true # git push --force ni oldini oladi

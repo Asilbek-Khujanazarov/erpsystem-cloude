@@ -50,9 +50,4 @@ jobs:
         run: |
           heroku run dotnet ef database update --app ${{ secrets.HEROKU_APP_NAME }}
         env:
-          ConnectionStrings__DefaultConnection: ${{ secrets.CONNECTION_STRING }}
-
-
-
-
-          
+          ConnectionStrings__DefaultConnection: ${{ secrets.DB_CONNECTION_STRING }}

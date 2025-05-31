@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lQiYdrg17kVIK7K5o6Qdho3fMeGb0ocMl34Ipek4m0A=",
+  "Hash": "mK4BXi+ibksHmyBJdUwIQGFzPqF3IwqnDMauzzmLUpM=",
   "Source": "HRsystem",
   "BasePath": "_content/HRsystem",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HRsystem\\wwwroot",
       "Source": "HRsystem",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "3rdpartylicenses#[.{fingerprint=fc59uvtef3}]?.txt.gz",
       "AssetKind": "All",
@@ -28,41 +28,62 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "gyaiphazf8",
       "Integrity": "CPs0N/ns5nmaIsBazJZuZtAjiLBHLZw55rGl/W95Op4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\5jh40mwmjh-bckg5n69fi.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
-      "RelativePath": "index#[.{fingerprint=3o7gjn6y7m}]?.html.gz",
+      "RelativePath": "main-4EU7DIKP#[.{fingerprint=bckg5n69fi}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\main-4EU7DIKP.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mlnx1u895o",
-      "Integrity": "uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU=",
+      "Fingerprint": "piobw3wm0q",
+      "Integrity": "HyNwk51iIavyomftbnJshbTAh9jRK/MklEAobq6Y7eA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\main-4EU7DIKP.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\8821kpgtbw-uxi8f17trh.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "index#[.{fingerprint=uxi8f17trh}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vwuasf5f5k",
+      "Integrity": "Af30YFvTt2uY2SRp8Od6Us4ulp0kILuBqyUdXpN0Lp8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "styles-APQXLMEW#[.{fingerprint=dmn5ggifut}]?.css.gz",
       "AssetKind": "All",
@@ -70,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "r14rm1qdvs",
       "Integrity": "wViez1CukA2HysHRw6bbwe5s3rspbv0syccuEY/Rr5g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "favicon#[.{fingerprint=vagikyz9qx}]?.ico.gz",
       "AssetKind": "All",
@@ -91,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\favicon.ico",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "spc2whqxhc",
       "Integrity": "4JD5TBkaKkYJVw5DzZh1jKJdCSTQYxpre7fdXrSQ/P8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\490bkzxtlp-fc59uvtef3.br",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\490bkzxtlp-fc59uvtef3.br",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "3rdpartylicenses#[.{fingerprint=fc59uvtef3}]?.txt.br",
       "AssetKind": "All",
@@ -112,41 +133,62 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "8o9xnok4yc",
       "Integrity": "yDnDXDT0kKun6WTeNI48bkxdgSXocvArC1wRgEXGtJk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\8821kpgtbw-3o7gjn6y7m.br",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\5jh40mwmjh-bckg5n69fi.br",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/HRsystem",
-      "RelativePath": "index#[.{fingerprint=3o7gjn6y7m}]?.html.br",
+      "RelativePath": "main-4EU7DIKP#[.{fingerprint=bckg5n69fi}]?.js.br",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\main-4EU7DIKP.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "a4v4suuxcs",
-      "Integrity": "imqWNv8qWaJn88Khg0JA/asH1H5r+5cJXElcWJR00WM=",
+      "Fingerprint": "tgsa6e94bf",
+      "Integrity": "YwOCWoqT2UXzqOuuGce3LZxXrf/h3JacncyhnOaBebs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\main-4EU7DIKP.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\hr6oghw0hy-dmn5ggifut.br",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\8821kpgtbw-uxi8f17trh.br",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/HRsystem",
+      "RelativePath": "index#[.{fingerprint=uxi8f17trh}]?.html.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "nvlvjiza9f",
+      "Integrity": "g6s/En00Ag02mbE/MBHsRgVPDLT958i34+f9SRYIH7Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\hr6oghw0hy-dmn5ggifut.br",
+      "SourceId": "HRsystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "styles-APQXLMEW#[.{fingerprint=dmn5ggifut}]?.css.br",
       "AssetKind": "All",
@@ -154,20 +196,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "6umnl6siz8",
       "Integrity": "XiBkfJ782VVdgaNjbVAMZBGe+E+weF8I24jvoP5oMps=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\k2p9abrkrg-vagikyz9qx.br",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\k2p9abrkrg-vagikyz9qx.br",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "favicon#[.{fingerprint=vagikyz9qx}]?.ico.br",
       "AssetKind": "All",
@@ -175,20 +217,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\favicon.ico",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "z44oi65n2z",
       "Integrity": "DZvQlN6nTeKU0K8Ab7twyTbcOiDwAKYlMmsyGJ+ukfM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\wtzbeph4il-39tegmrjtp.br",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\wtzbeph4il-39tegmrjtp.br",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "polyfills-FFHMD2TL#[.{fingerprint=39tegmrjtp}]?.js.br",
       "AssetKind": "All",
@@ -196,41 +238,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "txwjkp4l8q",
       "Integrity": "f7o/UqxPl0Oka4CNAP9duYnZgpjuS/aDEJ6rWCKX9ZA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\y7cizxr2pw-jhcnv9o1pj.br",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\ztzwzlwkje-tvy3j3n584.br",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "main-3JLHADOU#[.{fingerprint=jhcnv9o1pj}]?.js.br",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "br",
-      "Fingerprint": "bgiszvpcgq",
-      "Integrity": "a7uKN91jyY5ML1e9Za9Zz4ic8M+fUYhimG9Xtu9Tqh0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\ztzwzlwkje-tvy3j3n584.br",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "prerendered-routes#[.{fingerprint=tvy3j3n584}]?.json.br",
       "AssetKind": "All",
@@ -238,20 +259,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\prerendered-routes.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "s1s0vs4vxa",
       "Integrity": "AAOcDdoxFiyeGdEWYmSBa0pItxin+SuPp3FEivY+fgo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\prerendered-routes.json"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "polyfills-FFHMD2TL#[.{fingerprint=39tegmrjtp}]?.js.gz",
       "AssetKind": "All",
@@ -259,41 +280,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "w4lx0xupn9",
       "Integrity": "wNJFFxSczIGO97svjP9ishXOSHGLv5Y4VbZ5Mb0PkLw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
+      "Identity": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "main-3JLHADOU#[.{fingerprint=jhcnv9o1pj}]?.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "v26gqc0tvn",
-      "Integrity": "OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "prerendered-routes#[.{fingerprint=tvy3j3n584}]?.json.gz",
       "AssetKind": "All",
@@ -301,20 +301,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "RelatedAsset": "C:\\HRsystem\\wwwroot\\prerendered-routes.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "flm15mbdxq",
       "Integrity": "o1VjVQwEDpUxfB4dvCKgJktgYa0JihcBq69Qd6fuU3I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json"
+      "OriginalItemSpec": "C:\\HRsystem\\wwwroot\\prerendered-routes.json"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "Identity": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "3rdpartylicenses#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\3rdpartylicenses.txt"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "Identity": "C:\\HRsystem\\wwwroot\\favicon.ico",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -353,31 +353,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
+      "Identity": "C:\\HRsystem\\wwwroot\\index.html",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
-      "BasePath": "_content/HRsystem",
-      "RelativePath": "images/91911542-f6ee-4a39-b699-eb630a371c79#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3usgl8q85x",
-      "Integrity": "BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
-      "SourceId": "HRsystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -388,19 +367,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3o7gjn6y7m",
-      "Integrity": "0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=",
+      "Fingerprint": "uxi8f17trh",
+      "Integrity": "4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
+      "Identity": "C:\\HRsystem\\wwwroot\\main-4EU7DIKP.js",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
-      "RelativePath": "main-3JLHADOU#[.{fingerprint}]?.js",
+      "RelativePath": "main-4EU7DIKP#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -409,17 +388,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jhcnv9o1pj",
-      "Integrity": "96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=",
+      "Fingerprint": "bckg5n69fi",
+      "Integrity": "BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main-3JLHADOU.js"
+      "OriginalItemSpec": "wwwroot\\main-4EU7DIKP.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "Identity": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "polyfills-FFHMD2TL#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -437,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\polyfills-FFHMD2TL.js"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "Identity": "C:\\HRsystem\\wwwroot\\prerendered-routes.json",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "prerendered-routes#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -458,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\prerendered-routes.json"
     },
     {
-      "Identity": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
+      "Identity": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "SourceId": "HRsystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\",
+      "ContentRoot": "C:\\HRsystem\\wwwroot\\",
       "BasePath": "_content/HRsystem",
       "RelativePath": "styles-APQXLMEW#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -482,7 +461,7 @@
   "Endpoints": [
     {
       "Route": "3rdpartylicenses.fc59uvtef3.txt",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -505,7 +484,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -545,7 +524,7 @@
     },
     {
       "Route": "3rdpartylicenses.fc59uvtef3.txt",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\490bkzxtlp-fc59uvtef3.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\490bkzxtlp-fc59uvtef3.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -568,7 +547,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -608,7 +587,7 @@
     },
     {
       "Route": "3rdpartylicenses.fc59uvtef3.txt",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -629,7 +608,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -653,7 +632,7 @@
     },
     {
       "Route": "3rdpartylicenses.fc59uvtef3.txt.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\490bkzxtlp-fc59uvtef3.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\490bkzxtlp-fc59uvtef3.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -674,7 +653,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -706,7 +685,7 @@
     },
     {
       "Route": "3rdpartylicenses.fc59uvtef3.txt.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -727,7 +706,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -759,7 +738,7 @@
     },
     {
       "Route": "3rdpartylicenses.txt",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -782,7 +761,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -814,7 +793,7 @@
     },
     {
       "Route": "3rdpartylicenses.txt",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\490bkzxtlp-fc59uvtef3.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\490bkzxtlp-fc59uvtef3.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -837,7 +816,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -869,7 +848,7 @@
     },
     {
       "Route": "3rdpartylicenses.txt",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -890,7 +869,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -906,7 +885,7 @@
     },
     {
       "Route": "3rdpartylicenses.txt.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\490bkzxtlp-fc59uvtef3.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\490bkzxtlp-fc59uvtef3.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -927,7 +906,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -951,7 +930,7 @@
     },
     {
       "Route": "3rdpartylicenses.txt.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\490bkzxtlp-fc59uvtef3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -972,7 +951,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -996,7 +975,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1051,7 +1030,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\k2p9abrkrg-vagikyz9qx.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\k2p9abrkrg-vagikyz9qx.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1106,7 +1085,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1143,7 +1122,7 @@
     },
     {
       "Route": "favicon.ico.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\k2p9abrkrg-vagikyz9qx.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\k2p9abrkrg-vagikyz9qx.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1188,7 +1167,7 @@
     },
     {
       "Route": "favicon.ico.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1233,7 +1212,7 @@
     },
     {
       "Route": "favicon.vagikyz9qx.ico",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1296,7 +1275,7 @@
     },
     {
       "Route": "favicon.vagikyz9qx.ico",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\k2p9abrkrg-vagikyz9qx.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\k2p9abrkrg-vagikyz9qx.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1359,7 +1338,7 @@
     },
     {
       "Route": "favicon.vagikyz9qx.ico",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1404,7 +1383,7 @@
     },
     {
       "Route": "favicon.vagikyz9qx.ico.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\k2p9abrkrg-vagikyz9qx.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\k2p9abrkrg-vagikyz9qx.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1457,7 +1436,7 @@
     },
     {
       "Route": "favicon.vagikyz9qx.ico.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\k2p9abrkrg-vagikyz9qx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1509,95 +1488,13 @@
       ]
     },
     {
-      "Route": "images/91911542-f6ee-4a39-b699-eb630a371c79.3usgl8q85x.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30882"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:23:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3usgl8q85x"
-        },
-        {
-          "Name": "label",
-          "Value": "images/91911542-f6ee-4a39-b699-eb630a371c79.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM="
-        }
-      ]
-    },
-    {
-      "Route": "images/91911542-f6ee-4a39-b699-eb630a371c79.jpg",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\images\\91911542-f6ee-4a39-b699-eb630a371c79.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30882"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:23:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM="
-        }
-      ]
-    },
-    {
-      "Route": "index.3o7gjn6y7m.html",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "Route": "index.html",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\8821kpgtbw-uxi8f17trh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000271591526"
+          "Quality": "0.000271665308"
         }
       ],
       "ResponseHeaders": [
@@ -1607,15 +1504,252 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3681"
+          "Value": "3680"
         },
         {
           "Name": "ETag",
-          "Value": "\"uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU=\""
+          "Value": "\"Af30YFvTt2uY2SRp8Od6Us4ulp0kILuBqyUdXpN0Lp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\8821kpgtbw-uxi8f17trh.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000374251497"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2671"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g6s/En00Ag02mbE/MBHsRgVPDLT958i34+f9SRYIH7Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\8821kpgtbw-uxi8f17trh.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g6s/En00Ag02mbE/MBHsRgVPDLT958i34+f9SRYIH7Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g6s/En00Ag02mbE/MBHsRgVPDLT958i34+f9SRYIH7Q="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\8821kpgtbw-uxi8f17trh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Af30YFvTt2uY2SRp8Od6Us4ulp0kILuBqyUdXpN0Lp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Af30YFvTt2uY2SRp8Od6Us4ulp0kILuBqyUdXpN0Lp8="
+        }
+      ]
+    },
+    {
+      "Route": "index.uxi8f17trh.html",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\8821kpgtbw-uxi8f17trh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000271665308"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3680"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Af30YFvTt2uY2SRp8Od6Us4ulp0kILuBqyUdXpN0Lp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1635,13 +1769,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=\""
+          "Value": "W/\"4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3o7gjn6y7m"
+          "Value": "uxi8f17trh"
         },
         {
           "Name": "label",
@@ -1649,18 +1783,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8="
+          "Value": "sha256-4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg="
         }
       ]
     },
     {
-      "Route": "index.3o7gjn6y7m.html",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\8821kpgtbw-3o7gjn6y7m.br",
+      "Route": "index.uxi8f17trh.html",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\8821kpgtbw-uxi8f17trh.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000377073906"
+          "Quality": "0.000374251497"
         }
       ],
       "ResponseHeaders": [
@@ -1670,15 +1804,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2651"
+          "Value": "2671"
         },
         {
           "Name": "ETag",
-          "Value": "\"imqWNv8qWaJn88Khg0JA/asH1H5r+5cJXElcWJR00WM=\""
+          "Value": "\"g6s/En00Ag02mbE/MBHsRgVPDLT958i34+f9SRYIH7Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1698,13 +1832,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=\""
+          "Value": "W/\"4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3o7gjn6y7m"
+          "Value": "uxi8f17trh"
         },
         {
           "Name": "label",
@@ -1712,13 +1846,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8="
+          "Value": "sha256-4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg="
         }
       ]
     },
     {
-      "Route": "index.3o7gjn6y7m.html",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
+      "Route": "index.uxi8f17trh.html",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1735,11 +1869,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=\""
+          "Value": "\"4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1749,7 +1883,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3o7gjn6y7m"
+          "Value": "uxi8f17trh"
         },
         {
           "Name": "label",
@@ -1757,13 +1891,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8="
+          "Value": "sha256-4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg="
         }
       ]
     },
     {
-      "Route": "index.3o7gjn6y7m.html.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\8821kpgtbw-3o7gjn6y7m.br",
+      "Route": "index.uxi8f17trh.html.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\8821kpgtbw-uxi8f17trh.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1772,7 +1906,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2651"
+          "Value": "2671"
         },
         {
           "Name": "Content-Type",
@@ -1780,11 +1914,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"imqWNv8qWaJn88Khg0JA/asH1H5r+5cJXElcWJR00WM=\""
+          "Value": "\"g6s/En00Ag02mbE/MBHsRgVPDLT958i34+f9SRYIH7Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1802,7 +1936,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3o7gjn6y7m"
+          "Value": "uxi8f17trh"
         },
         {
           "Name": "label",
@@ -1810,13 +1944,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-imqWNv8qWaJn88Khg0JA/asH1H5r+5cJXElcWJR00WM="
+          "Value": "sha256-g6s/En00Ag02mbE/MBHsRgVPDLT958i34+f9SRYIH7Q="
         }
       ]
     },
     {
-      "Route": "index.3o7gjn6y7m.html.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "Route": "index.uxi8f17trh.html.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\8821kpgtbw-uxi8f17trh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1825,7 +1959,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3681"
+          "Value": "3680"
         },
         {
           "Name": "Content-Type",
@@ -1833,11 +1967,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU=\""
+          "Value": "\"Af30YFvTt2uY2SRp8Od6Us4ulp0kILuBqyUdXpN0Lp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1855,7 +1989,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3o7gjn6y7m"
+          "Value": "uxi8f17trh"
         },
         {
           "Name": "label",
@@ -1863,18 +1997,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU="
+          "Value": "sha256-Af30YFvTt2uY2SRp8Od6Us4ulp0kILuBqyUdXpN0Lp8="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
+      "Route": "main-4EU7DIKP.bckg5n69fi.js",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\5jh40mwmjh-bckg5n69fi.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000271591526"
+          "Quality": "0.000002727263"
         }
       ],
       "ResponseHeaders": [
@@ -1884,19 +2018,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3681"
+          "Value": "366667"
         },
         {
           "Name": "ETag",
-          "Value": "\"uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU=\""
+          "Value": "\"HyNwk51iIavyomftbnJshbTAh9jRK/MklEAobq6Y7eA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -1908,28 +2042,36 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=\""
+          "Value": "W/\"BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "bckg5n69fi"
+        },
+        {
+          "Name": "label",
+          "Value": "main-4EU7DIKP.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8="
+          "Value": "sha256-BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\8821kpgtbw-3o7gjn6y7m.br",
+      "Route": "main-4EU7DIKP.bckg5n69fi.js",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\5jh40mwmjh-bckg5n69fi.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000377073906"
+          "Quality": "0.000003529217"
         }
       ],
       "ResponseHeaders": [
@@ -1939,197 +2081,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2651"
+          "Value": "283348"
         },
         {
           "Name": "ETag",
-          "Value": "\"imqWNv8qWaJn88Khg0JA/asH1H5r+5cJXElcWJR00WM=\""
+          "Value": "\"YwOCWoqT2UXzqOuuGce3LZxXrf/h3JacncyhnOaBebs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23565"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\8821kpgtbw-3o7gjn6y7m.br",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2651"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"imqWNv8qWaJn88Khg0JA/asH1H5r+5cJXElcWJR00WM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-imqWNv8qWaJn88Khg0JA/asH1H5r+5cJXElcWJR00WM="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\8821kpgtbw-3o7gjn6y7m.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3681"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uo5OUro4+i5zC1rQT+H/NcPrTVlQV0Gwn3/VUTphOmU="
-        }
-      ]
-    },
-    {
-      "Route": "main-3JLHADOU.jhcnv9o1pj.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\y7cizxr2pw-jhcnv9o1pj.br",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "br",
-          "Quality": "0.000003573752"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "279817"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a7uKN91jyY5ML1e9Za9Zz4ic8M+fUYhimG9Xtu9Tqh0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2149,32 +2109,183 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=\""
+          "Value": "W/\"BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jhcnv9o1pj"
+          "Value": "bckg5n69fi"
         },
         {
           "Name": "label",
-          "Value": "main-3JLHADOU.js"
+          "Value": "main-4EU7DIKP.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI="
+          "Value": "sha256-BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4="
         }
       ]
     },
     {
-      "Route": "main-3JLHADOU.jhcnv9o1pj.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
+      "Route": "main-4EU7DIKP.bckg5n69fi.js",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\main-4EU7DIKP.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1433350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bckg5n69fi"
+        },
+        {
+          "Name": "label",
+          "Value": "main-4EU7DIKP.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4="
+        }
+      ]
+    },
+    {
+      "Route": "main-4EU7DIKP.bckg5n69fi.js.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\5jh40mwmjh-bckg5n69fi.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YwOCWoqT2UXzqOuuGce3LZxXrf/h3JacncyhnOaBebs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bckg5n69fi"
+        },
+        {
+          "Name": "label",
+          "Value": "main-4EU7DIKP.js.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YwOCWoqT2UXzqOuuGce3LZxXrf/h3JacncyhnOaBebs="
+        }
+      ]
+    },
+    {
+      "Route": "main-4EU7DIKP.bckg5n69fi.js.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\5jh40mwmjh-bckg5n69fi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "366667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HyNwk51iIavyomftbnJshbTAh9jRK/MklEAobq6Y7eA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bckg5n69fi"
+        },
+        {
+          "Name": "label",
+          "Value": "main-4EU7DIKP.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HyNwk51iIavyomftbnJshbTAh9jRK/MklEAobq6Y7eA="
+        }
+      ]
+    },
+    {
+      "Route": "main-4EU7DIKP.js",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\5jh40mwmjh-bckg5n69fi.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000002771219"
+          "Quality": "0.000002727263"
         }
       ],
       "ResponseHeaders": [
@@ -2184,19 +2295,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "360851"
+          "Value": "366667"
         },
         {
           "Name": "ETag",
-          "Value": "\"OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI=\""
+          "Value": "\"HyNwk51iIavyomftbnJshbTAh9jRK/MklEAobq6Y7eA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2212,183 +2323,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=\""
+          "Value": "W/\"BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "jhcnv9o1pj"
-        },
-        {
-          "Name": "label",
-          "Value": "main-3JLHADOU.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI="
+          "Value": "sha256-BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4="
         }
       ]
     },
     {
-      "Route": "main-3JLHADOU.jhcnv9o1pj.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1405605"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jhcnv9o1pj"
-        },
-        {
-          "Name": "label",
-          "Value": "main-3JLHADOU.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI="
-        }
-      ]
-    },
-    {
-      "Route": "main-3JLHADOU.jhcnv9o1pj.js.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\y7cizxr2pw-jhcnv9o1pj.br",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "279817"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a7uKN91jyY5ML1e9Za9Zz4ic8M+fUYhimG9Xtu9Tqh0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jhcnv9o1pj"
-        },
-        {
-          "Name": "label",
-          "Value": "main-3JLHADOU.js.br"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-a7uKN91jyY5ML1e9Za9Zz4ic8M+fUYhimG9Xtu9Tqh0="
-        }
-      ]
-    },
-    {
-      "Route": "main-3JLHADOU.jhcnv9o1pj.js.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "360851"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jhcnv9o1pj"
-        },
-        {
-          "Name": "label",
-          "Value": "main-3JLHADOU.js.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI="
-        }
-      ]
-    },
-    {
-      "Route": "main-3JLHADOU.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\y7cizxr2pw-jhcnv9o1pj.br",
+      "Route": "main-4EU7DIKP.js",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\5jh40mwmjh-bckg5n69fi.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000003573752"
+          "Quality": "0.000003529217"
         }
       ],
       "ResponseHeaders": [
@@ -2398,15 +2350,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "279817"
+          "Value": "283348"
         },
         {
           "Name": "ETag",
-          "Value": "\"a7uKN91jyY5ML1e9Za9Zz4ic8M+fUYhimG9Xtu9Tqh0=\""
+          "Value": "\"YwOCWoqT2UXzqOuuGce3LZxXrf/h3JacncyhnOaBebs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2426,74 +2378,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=\""
+          "Value": "W/\"BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI="
+          "Value": "sha256-BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4="
         }
       ]
     },
     {
-      "Route": "main-3JLHADOU.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000002771219"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "360851"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI="
-        }
-      ]
-    },
-    {
-      "Route": "main-3JLHADOU.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\main-3JLHADOU.js",
+      "Route": "main-4EU7DIKP.js",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\main-4EU7DIKP.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2502,7 +2399,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1405605"
+          "Value": "1433350"
         },
         {
           "Name": "Content-Type",
@@ -2510,11 +2407,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=\""
+          "Value": "\"BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2524,13 +2421,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI="
+          "Value": "sha256-BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4="
         }
       ]
     },
     {
-      "Route": "main-3JLHADOU.js.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\y7cizxr2pw-jhcnv9o1pj.br",
+      "Route": "main-4EU7DIKP.js.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\5jh40mwmjh-bckg5n69fi.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2539,7 +2436,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "279817"
+          "Value": "283348"
         },
         {
           "Name": "Content-Type",
@@ -2547,11 +2444,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a7uKN91jyY5ML1e9Za9Zz4ic8M+fUYhimG9Xtu9Tqh0=\""
+          "Value": "\"YwOCWoqT2UXzqOuuGce3LZxXrf/h3JacncyhnOaBebs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2569,13 +2466,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a7uKN91jyY5ML1e9Za9Zz4ic8M+fUYhimG9Xtu9Tqh0="
+          "Value": "sha256-YwOCWoqT2UXzqOuuGce3LZxXrf/h3JacncyhnOaBebs="
         }
       ]
     },
     {
-      "Route": "main-3JLHADOU.js.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\y7cizxr2pw-jhcnv9o1pj.gz",
+      "Route": "main-4EU7DIKP.js.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\5jh40mwmjh-bckg5n69fi.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2584,7 +2481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "360851"
+          "Value": "366667"
         },
         {
           "Name": "Content-Type",
@@ -2592,11 +2489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI=\""
+          "Value": "\"HyNwk51iIavyomftbnJshbTAh9jRK/MklEAobq6Y7eA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2614,13 +2511,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OTMibiTg9Mi1z9J6yC5g2USLLxWec3txrXIn/LacbHI="
+          "Value": "sha256-HyNwk51iIavyomftbnJshbTAh9jRK/MklEAobq6Y7eA="
         }
       ]
     },
     {
       "Route": "polyfills-FFHMD2TL.39tegmrjtp.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\wtzbeph4il-39tegmrjtp.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\wtzbeph4il-39tegmrjtp.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2643,7 +2540,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2683,7 +2580,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.39tegmrjtp.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2706,7 +2603,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2746,7 +2643,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.39tegmrjtp.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2767,7 +2664,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2791,7 +2688,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.39tegmrjtp.js.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\wtzbeph4il-39tegmrjtp.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\wtzbeph4il-39tegmrjtp.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2812,7 +2709,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2844,7 +2741,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.39tegmrjtp.js.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2865,7 +2762,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2897,7 +2794,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\wtzbeph4il-39tegmrjtp.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\wtzbeph4il-39tegmrjtp.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2920,7 +2817,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2952,7 +2849,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2975,7 +2872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3007,7 +2904,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.js",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3028,7 +2925,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3044,7 +2941,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.js.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\wtzbeph4il-39tegmrjtp.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\wtzbeph4il-39tegmrjtp.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3065,7 +2962,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3089,7 +2986,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.js.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\wtzbeph4il-39tegmrjtp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3110,7 +3007,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3134,7 +3031,7 @@
     },
     {
       "Route": "prerendered-routes.json",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\ztzwzlwkje-tvy3j3n584.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\ztzwzlwkje-tvy3j3n584.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3157,7 +3054,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3189,7 +3086,7 @@
     },
     {
       "Route": "prerendered-routes.json",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3212,7 +3109,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3244,7 +3141,7 @@
     },
     {
       "Route": "prerendered-routes.json",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\prerendered-routes.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3265,7 +3162,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3281,7 +3178,7 @@
     },
     {
       "Route": "prerendered-routes.json.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\ztzwzlwkje-tvy3j3n584.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\ztzwzlwkje-tvy3j3n584.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3302,7 +3199,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3326,7 +3223,7 @@
     },
     {
       "Route": "prerendered-routes.json.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3347,7 +3244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3371,7 +3268,7 @@
     },
     {
       "Route": "prerendered-routes.tvy3j3n584.json",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\ztzwzlwkje-tvy3j3n584.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\ztzwzlwkje-tvy3j3n584.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3394,7 +3291,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3434,7 +3331,7 @@
     },
     {
       "Route": "prerendered-routes.tvy3j3n584.json",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3457,7 +3354,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3497,7 +3394,7 @@
     },
     {
       "Route": "prerendered-routes.tvy3j3n584.json",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\prerendered-routes.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3518,7 +3415,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3542,7 +3439,7 @@
     },
     {
       "Route": "prerendered-routes.tvy3j3n584.json.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\ztzwzlwkje-tvy3j3n584.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\ztzwzlwkje-tvy3j3n584.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3563,7 +3460,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3595,7 +3492,7 @@
     },
     {
       "Route": "prerendered-routes.tvy3j3n584.json.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\ztzwzlwkje-tvy3j3n584.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3616,7 +3513,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3648,7 +3545,7 @@
     },
     {
       "Route": "styles-APQXLMEW.css",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3671,7 +3568,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3703,7 +3600,7 @@
     },
     {
       "Route": "styles-APQXLMEW.css",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\hr6oghw0hy-dmn5ggifut.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\hr6oghw0hy-dmn5ggifut.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3726,7 +3623,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3758,7 +3655,7 @@
     },
     {
       "Route": "styles-APQXLMEW.css",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3779,7 +3676,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3795,7 +3692,7 @@
     },
     {
       "Route": "styles-APQXLMEW.css.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\hr6oghw0hy-dmn5ggifut.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\hr6oghw0hy-dmn5ggifut.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3816,7 +3713,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3840,7 +3737,7 @@
     },
     {
       "Route": "styles-APQXLMEW.css.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3861,7 +3758,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3885,7 +3782,7 @@
     },
     {
       "Route": "styles-APQXLMEW.dmn5ggifut.css",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3908,7 +3805,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3948,7 +3845,7 @@
     },
     {
       "Route": "styles-APQXLMEW.dmn5ggifut.css",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\hr6oghw0hy-dmn5ggifut.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\hr6oghw0hy-dmn5ggifut.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3971,7 +3868,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4011,7 +3908,7 @@
     },
     {
       "Route": "styles-APQXLMEW.dmn5ggifut.css",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
+      "AssetFile": "C:\\HRsystem\\wwwroot\\styles-APQXLMEW.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4032,7 +3929,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4056,7 +3953,7 @@
     },
     {
       "Route": "styles-APQXLMEW.dmn5ggifut.css.br",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\hr6oghw0hy-dmn5ggifut.br",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\publish\\hr6oghw0hy-dmn5ggifut.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4077,7 +3974,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4109,7 +4006,7 @@
     },
     {
       "Route": "styles-APQXLMEW.dmn5ggifut.css.gz",
-      "AssetFile": "C:\\Users\\asilb\\OneDrive\\Desktop\\HRsystem\\obj\\Release\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
+      "AssetFile": "C:\\HRsystem\\obj\\Release\\net9.0\\compressed\\hr6oghw0hy-dmn5ggifut.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4130,7 +4027,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 10:36:48 GMT"
+          "Value": "Sat, 31 May 2025 03:34:52 GMT"
         },
         {
           "Name": "Cache-Control",

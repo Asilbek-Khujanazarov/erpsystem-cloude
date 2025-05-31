@@ -10,8 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
-);
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 builder.Services.AddCors(options =>
 {
@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
         builder =>
         {
             builder
-                .AllowAnyOrigin() // Barcha origin’larga ruxsat berish
+                .WithOrigins("https://erpsystem-asilbek-f5513e7cc9be.herokuapp.com")
                 .AllowAnyMethod() // Barcha metodlarga (GET, POST, va hokazo) ruxsat
                 .AllowAnyHeader(); // Barcha header’larga ruxsat
         }
@@ -106,7 +106,7 @@ if (app.Environment.IsDevelopment())
     });
 }
 app.UseCors("AllowAll");
-
+app.UseDefaultFiles();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

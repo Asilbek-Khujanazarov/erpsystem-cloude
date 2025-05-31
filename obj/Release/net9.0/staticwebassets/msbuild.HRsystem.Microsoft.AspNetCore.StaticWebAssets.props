@@ -36,24 +36,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\91911542-f6ee-4a39-b699-eb630a371c79.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>HRsystem</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/HRsystem</BasePath>
-      <RelativePath>images/91911542-f6ee-4a39-b699-eb630a371c79.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3usgl8q85x</Fingerprint>
-      <Integrity>BRUiZb0cA8HkfyqUTAUeeq87PCScnHqjQg97s2XoqSM=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\91911542-f6ee-4a39-b699-eb630a371c79.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))">
       <SourceType>Package</SourceType>
       <SourceId>HRsystem</SourceId>
@@ -66,29 +48,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3o7gjn6y7m</Fingerprint>
-      <Integrity>0xmlzFcE6B5ESp5GTSpq8BOSVE2mmXfFFi19UT952L8=</Integrity>
+      <Fingerprint>uxi8f17trh</Fingerprint>
+      <Integrity>4tSGRyvPh2dIOiO+FR2h/EzMxrRR4jcu+gEX3hzHBXg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-3JLHADOU.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-4EU7DIKP.js'))">
       <SourceType>Package</SourceType>
       <SourceId>HRsystem</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/HRsystem</BasePath>
-      <RelativePath>main-3JLHADOU.js</RelativePath>
+      <RelativePath>main-4EU7DIKP.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jhcnv9o1pj</Fingerprint>
-      <Integrity>96HHOHV+tEQgEHi/rDZw2LxJRZd6efI9s7EfaToPbgI=</Integrity>
+      <Fingerprint>bckg5n69fi</Fingerprint>
+      <Integrity>BbRtxu4K8peZH2fCE+KDkrkgAAXBXCgD+QsGd+7szq4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-3JLHADOU.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-4EU7DIKP.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\polyfills-FFHMD2TL.js'))">
       <SourceType>Package</SourceType>

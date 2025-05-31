@@ -13,34 +13,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Kodni repozitoriyadan olish
+      # 1. Kodni olish
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2. .NET SDK o‘rnatish
+      # 2. .NET 9 SDK ni sozlash
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '9.0.x'
 
-      # 3. .NET kutubxonalarni tiklash
+      # 3. Dependencieslarni restore qilish
       - name: Restore dependencies
         run: dotnet restore
 
-      # 4. Loyihani build qilish
-      - name: Build
+      # 4. Build qilish
+      - name: Build project
         run: dotnet build --configuration Release --no-restore
 
-      # 5. Testlarni ishga tushurish (agar mavjud bo‘lsa)
-      - name: Run Tests
+      # 5. Testlarni ishga tushirish (agar mavjud bo‘lsa)
+      - name: Run tests
         run: dotnet test --no-build --verbosity normal
         continue-on-error: true
 
-      # 6. Heroku remote qo‘shish (shart)
-      - name: Add Heroku git remote
-        run: git remote add heroku https://git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git
-
-      # 7. Heroku’ga deploy qilish
+      # 6. Heroku'ga deploy qilish
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.13.15
         with:
@@ -49,8 +45,9 @@ jobs:
           heroku_email: "asilbekpersonal@gmail.com"
           usedocker: false
 
-      # 8. Migratsiyalarni ishga tushurish (Neon Postgres DB)
+      # 7. Ma'lumotlar bazasi migratsiyasini qo‘llash
       - name: Run database migrations
-        run: heroku run dotnet ef database update --app ${{ secrets.HEROKU_APP_NAME }}
+        run: |
+          heroku run "dotnet ef database update" --app ${{ secrets.HEROKU_APP_NAME }}
         env:
           ConnectionStrings__DefaultConnection: ${{ secrets.DEFAULT_CONNECTION }}

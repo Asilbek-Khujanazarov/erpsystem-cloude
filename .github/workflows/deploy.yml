@@ -51,7 +51,9 @@ jobs:
           heroku run dotnet ef database update --app ${{ secrets.HEROKU_APP_NAME }}
         env:
           ConnectionStrings__DefaultConnection: ${{ secrets.DB_CONNECTION_STRING }}
-        # 8Heroku CLI ni o'rnatish
+      # 8Heroku CLI ni o'rnatish
+    
       - name: Install Heroku CLI
         run: |
           curl https://cli-assets.heroku.com/install.sh | sh
+

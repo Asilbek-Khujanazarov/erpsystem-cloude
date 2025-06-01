@@ -318,3 +318,14 @@ C:\HRsystem\obj\Release\net9.0\HRsystem.genruntimeconfig.cache
 C:\HRsystem\obj\Release\net9.0\ref\HRsystem.dll
 C:\HRsystem\obj\Release\net9.0\compressed\8821kpgtbw-6wpz31bhnz.gz
 C:\HRsystem\obj\Release\net9.0\compressed\iwon39qp3c-j4e9xgmb3r.gz
+E:\HRsystem\obj\Release\net9.0\HRsystem.csproj.AssemblyReference.cache
+E:\HRsystem\obj\Release\net9.0\HRsystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\HRsystem\obj\Release\net9.0\HRsystem.AssemblyInfoInputs.cache
+E:\HRsystem\obj\Release\net9.0\HRsystem.AssemblyInfo.cs
+E:\HRsystem\obj\Release\net9.0\HRsystem.csproj.CoreCompileInputs.cache
+E:\HRsystem\obj\Release\net9.0\HRsystem.MvcApplicationPartsAssemblyInfo.cs
+E:\HRsystem\obj\Release\net9.0\HRsystem.MvcApplicationPartsAssemblyInfo.cache
+E:\HRsystem\obj\Release\net9.0\HRsystem.sourcelink.json
+E:\HRsystem\obj\Release\net9.0\HRsystem.dll
+E:\HRsystem\obj\Release\net9.0\refint\HRsystem.dll
+E:\HRsystem\obj\Release\net9.0\HRsystem.pdb

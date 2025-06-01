@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fc59uvtef3</Fingerprint>
-      <Integrity>sXLHs3L8QD7cBAbN+2S0wj4dH1A33Uey9g+u34bSjro=</Integrity>
+      <Fingerprint>fgkqa8pwjs</Fingerprint>
+      <Integrity>8RsEMZyRgwTVZhWeGfodtq2x06nedws2HSDzXaSbmtU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\3rdpartylicenses.txt'))</OriginalItemSpec>
@@ -48,29 +48,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6wpz31bhnz</Fingerprint>
-      <Integrity>KhuEk2h0z26pD6e4OoPwsvk4vqlKxXwR2Tl36QYZc2c=</Integrity>
+      <Fingerprint>1lepbvfiok</Fingerprint>
+      <Integrity>FU3wm059N7wxDr1A4Vj+g6gs4kbJBm7AnYrkxDDhc88=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-SCVU3OAY.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-HAFKGIO5.js'))">
       <SourceType>Package</SourceType>
       <SourceId>HRsystem</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/HRsystem</BasePath>
-      <RelativePath>main-SCVU3OAY.js</RelativePath>
+      <RelativePath>main-HAFKGIO5.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j4e9xgmb3r</Fingerprint>
-      <Integrity>PS/ahu6Ld+ywP9OBYxSEYAQtvuNUDyFB+w88siOMMDE=</Integrity>
+      <Fingerprint>8rv479eq33</Fingerprint>
+      <Integrity>xAR7DQMfiYVY9un9WpVAzY6CqPThor99Bf5EwcDxlDI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-SCVU3OAY.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-HAFKGIO5.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\polyfills-FFHMD2TL.js'))">
       <SourceType>Package</SourceType>
@@ -108,23 +108,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\prerendered-routes.json'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles-APQXLMEW.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles-MKTM5UN4.css'))">
       <SourceType>Package</SourceType>
       <SourceId>HRsystem</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/HRsystem</BasePath>
-      <RelativePath>styles-APQXLMEW.css</RelativePath>
+      <RelativePath>styles-MKTM5UN4.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dmn5ggifut</Fingerprint>
-      <Integrity>1TZvm/k0xNgMXWaBYdbEHmNVe09jrFKVH2Mpk7yiRzw=</Integrity>
+      <Fingerprint>eiadv0jlw4</Fingerprint>
+      <Integrity>dmXNQ3i1RsceY8C8GWKqTeabjJWoTja6eUBSSXZkz3s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles-APQXLMEW.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles-MKTM5UN4.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

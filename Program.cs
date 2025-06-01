@@ -9,77 +9,28 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
 builder.Services.AddControllers();
+
+// Database
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
+// CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy(
-        "AllowAll",
-        builder =>
-        {
-            builder
-                .AllowAnyOrigin() // Barcha manbalarga ruxsat
-                .AllowAnyMethod() // Barcha metodlarga (GET, POST, va hokazo) ruxsat
-                .AllowAnyHeader(); // Barcha header’larga ruxsat
-        }
-    );
+    options.AddPolicy("AllowAll", policyBuilder =>
+    {
+        policyBuilder
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
 });
 
-// AutoMapper ni qo‘shish
+// AutoMapper
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
-var port = Environment.GetEnvironmentVariable("PORT") ?? "5000"; // Heroku uchun kerak
-builder.WebHost.UseUrls($"http://*:{port}");
-
-// Swagger/OpenAPI ni sozlash
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc(
-        "v1",
-        new OpenApiInfo
-        {
-            Title = "HRsystem API",
-            Version = "v1",
-            Description = "HRsystem loyihasi uchun API hujjatlari",
-        }
-    );
-
-    c.AddSecurityDefinition(
-        "Bearer",
-        // new OpenApiSecurityScheme
-        {
-            In = ParameterLocation.Header,
-            Description = "JWT token’ni Bearer sifatida kiriting (masalan: Bearer {token})",
-            Name = "Authorization",
-            Type = SecuritySchemeType.ApiKey,
-            Scheme = "Bearer",
-        }
-    );
-
-    c.AddSecurityRequirement(
-        new OpenApiSecurityRequirement
-        {
-            {
-                new OpenApiSecurityScheme
-                {
-                    Reference = new OpenApiReference
-                    {
-                        Type = ReferenceType.SecurityScheme,
-                        Id = "Bearer",
-                    },
-                },
-                new string[] { }
-            },
-        }
-    );
-});
-
-// Autentifikatsiya va avtorizatsiya
-builder.Services.AddAuthorization();
-builder
-    .Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme) // "Bearer" scheme
+// JWT Authentication
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
@@ -88,17 +39,58 @@ builder
             ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            ValidIssuer = builder.Configuration["Jwt:Issuer"], // "HRSystem"
-            ValidAudience = builder.Configuration["Jwt:Audience"], // "HRSystemUsers"
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)
-            ), // "Bu_Secret_Key_32_Characters_Long!"
+            ),
         };
     });
 
+builder.Services.AddAuthorization();
+
+// Swagger configuration
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "HRsystem API",
+        Version = "v1",
+        Description = "HRsystem loyihasi uchun API hujjatlari",
+    });
+
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "JWT token’ni Bearer sifatida kiriting (masalan: Bearer {token})",
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
+
+// Heroku / hosting porti uchun
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+builder.WebHost.UseUrls($"http://*:{port}");
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
+// Middleware
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -108,12 +100,18 @@ if (app.Environment.IsDevelopment())
         c.RoutePrefix = string.Empty;
     });
 }
+
 app.UseCors("AllowAll");
+
 app.UseDefaultFiles();
+app.UseStaticFiles();
+
 app.UseHttpsRedirection();
+
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseStaticFiles();
+
 app.MapFallbackToFile("index.html");
 app.MapControllers();
+
 app.Run();

@@ -1,1 +1,1 @@
-web: dotnet HRSystem.dll
+web: dotnet HRsystem.dll

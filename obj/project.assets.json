@@ -3783,11 +3783,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\HRsystem\\HRsystem.csproj",
+      "projectUniqueName": "E:\\HRsystem\\HRsystem.csproj",
       "projectName": "HRsystem",
-      "projectPath": "C:\\HRsystem\\HRsystem.csproj",
+      "projectPath": "E:\\HRsystem\\HRsystem.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\HRsystem\\obj\\",
+      "outputPath": "E:\\HRsystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config"

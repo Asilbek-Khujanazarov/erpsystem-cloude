@@ -48,7 +48,7 @@ builder.Services.AddSwaggerGen(c =>
 
     c.AddSecurityDefinition(
         "Bearer",
-        new OpenApiSecurityScheme
+        // new OpenApiSecurityScheme
         {
             In = ParameterLocation.Header,
             Description = "JWT token’ni Bearer sifatida kiriting (masalan: Bearer {token})",

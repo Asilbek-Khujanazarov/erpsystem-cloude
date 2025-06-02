@@ -1,31 +1,31 @@
 {
   "Files": [
     {
-      "Id": "E:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
+      "Id": "C:\\HRsystem\\wwwroot\\3rdpartylicenses.txt",
       "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
     },
     {
-      "Id": "E:\\HRsystem\\wwwroot\\favicon.ico",
+      "Id": "C:\\HRsystem\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\HRsystem\\wwwroot\\index.html",
+      "Id": "C:\\HRsystem\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "E:\\HRsystem\\wwwroot\\main-HAFKGIO5.js",
+      "Id": "C:\\HRsystem\\wwwroot\\main-HAFKGIO5.js",
       "PackagePath": "staticwebassets\\main-HAFKGIO5.js"
     },
     {
-      "Id": "E:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
+      "Id": "C:\\HRsystem\\wwwroot\\polyfills-FFHMD2TL.js",
       "PackagePath": "staticwebassets\\polyfills-FFHMD2TL.js"
     },
     {
-      "Id": "E:\\HRsystem\\wwwroot\\prerendered-routes.json",
+      "Id": "C:\\HRsystem\\wwwroot\\prerendered-routes.json",
       "PackagePath": "staticwebassets\\prerendered-routes.json"
     },
     {
-      "Id": "E:\\HRsystem\\wwwroot\\styles-MKTM5UN4.css",
+      "Id": "C:\\HRsystem\\wwwroot\\styles-MKTM5UN4.css",
       "PackagePath": "staticwebassets\\styles-MKTM5UN4.css"
     },
     {
